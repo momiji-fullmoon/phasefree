@@ -14,6 +14,10 @@
 
 ## 実行
 
+**公開版（GitHub Pages）: https://momiji-fullmoon.github.io/phasefree/** （索引も実物manifestと同期。IndexedDB保存は公開サイトごとに独立）
+
+ローカルで実行する場合:
+
 ```sh
 # 1) そのまま開く（Leaflet は vendor/ に同梱。読めない場合だけ cdnjs から読む）
 open index.html            # Windows: start index.html
