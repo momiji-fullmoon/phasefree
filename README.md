@@ -24,6 +24,9 @@ open index.html            # Windows: start index.html
 
 # 2) ローカルサーバーで開く（ブラウザが file:// を制限する場合）
 python -m http.server 8000  # → http://localhost:8000/
+
+# 3) 再配布用ZIPを作る（配布先では解凍後 file:// 起動を想定。指示書 README_FIRST.html を同梱）
+python -m tools/build_dist_zip.py   # → phasefree_kumamoto_demo.zip（約190 MB。除外: .DS_Store 等）
 ```
 
 - 1ファイル（約1.4 MB）に、コード・背景地図・解析用データ・実台帳の埋め込みを全て含む。外部への通信はしない（Leaflet の予備読込み、および `http://` 配信時の `kumamoto_event_data/manifest.json` との索引同期を除く）。

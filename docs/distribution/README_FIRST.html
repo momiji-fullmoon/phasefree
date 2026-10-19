@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>熊本2026 インフラ初動AI（配布版）つかいかた</title>
+<style>
+  body{font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic UI",Meiryo,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1c2330;line-height:1.75}
+  h1{font-size:22px;border-bottom:3px solid #1e6ea8;padding-bottom:8px}
+  h2{font-size:17px;color:#15507b;margin-top:34px}
+  .warn{background:#fff6e5;border:1px solid #e5c26a;border-radius:8px;padding:10px 14px}
+  .box{background:#eef5fb;border:1px solid #bfd6ea;border-radius:8px;padding:10px 14px}
+  code,pre{background:#f3f5f8;border-radius:6px;padding:2px 6px;font-family:Menlo,Consolas,monospace}
+  table{border-collapse:collapse;width:100%;font-size:14px}
+  th,td{border:1px solid #d5dce4;padding:6px 10px;text-align:left;vertical-align:top}
+  th{background:#f0f4f9}
+  .steps td:first-child{white-space:nowrap;font-weight:600;color:#15507b}
+  .small{font-size:12.5px;color:#5b6672}
+</style>
+</head>
+<body>
+<h1>熊本2026 インフラ初動AI（配布版）つかいかた</h1>
+<p class="small">フェーズフリー型自治体防災AI実証事業（提案用デモ）。熊本県南部を対象に、平時の点検管理と令和8年熊本地震（2026-07-28 16:27 假想・M7.1）の発災後対応を、同じ資産IDとデータ基盤で再現します。</p>
+
+<h2>1. はじめに（必ずお読みください）</h2>
+<div class="warn">
+<ul>
+<li>これは<strong>提案・議論用のデモ</strong>です。地図・画面・台帳上の被害・点検結果には<strong>合成データ（仮）</strong>を含みます。実データ（公表資料・橋梁台帳・地震観測）と合成の区別は、アプリ内の<strong>「データ基盤」タブ</strong>でA/B/Cの取得区分と出典一覧から必ず確認してください。</li>
+<li>画面の説明・数値は実在の施設の状態を示したものではありません。行政判断の根拠としてはそのまま使用しないでください。</li>
+<li><strong>操作履歴（実施記録など）はこのPCのブラウザに保存</strong>されます。サーバーに送信されません。</li>
+</ul>
+</div>
+
+<h2>2. 起動まで（およそ3分）</h2>
+<table class="steps">
+<tr><td>STEP 1</td><td>ZIPファイルを<strong>右クリック（Mac: ダブルクリック／Windows: すべて展開）</strong>して<strong>フォルダごと丸ごと解凍</strong>します。<br><span class="small">※解凍したフォルダの中にある以下の<strong>相対位置は絶対に変えないでください</strong>（zip内の直接実行も不可）:<br><code>index.html</code> ＋ <code>kumamoto_event_data/</code>（発災後アーカイブ219MB） ＋ <code>vendor/</code>（地図ライブラリ）</span></td></tr>
+<tr><td>STEP 2</td><td><code>index.html</code> を<strong>ダブルクリック</strong>して開きます。<br>推奨: <strong>Google Chrome / Microsoft Edge / Safari の最新版</strong>（iPhone等小型端末では未検証です）。</td></tr>
+<tr><td>STEP 3</td><td>画面上部の<strong>「AIに指示」タブ</strong>に 例文（下「5. 例示プロンプト」）を入力し、画面が動くことを確認します。</td></tr>
+</table>
+<div class="box" style="margin-top:12px">うまく動かない時は <code>README.md</code>（開発者向）の「実行」、<code>docs/phase-free-p1.md</code> のP1操作ノートも参照できます。</div>
+
+<h2>3. 主な画面</h2>
+<table>
+<tr><th>タブ</th><th>内容</th></tr>
+<tr><td>AIに指示</td><td>日本語で操作を依頼します（検索・計画依頼・画面遷移を自動実行）</td></tr>
+<tr><td>優先順位</td><td>230件のインフラ候補の中から見る優先度とフィルタ</td></tr>
+<tr><td>点検計画</td><td>班・時間・拠点から現場の出動ルートと訪問予定</td></tr>
+<tr><td>防災計画</td><td>平時の事前対策・予算配分（推案）</td></tr>
+<tr><td>根拠追跡</td><td>数字・判定と、その出典・引用元の突合</td></tr>
+<tr><td>解析</td><td>投入された観測情報と点検優先度算出の方法</td></tr>
+<tr><td>復旧計画</td><td>被害確認後の応急・本復旧工程（推案）</td></tr>
+<tr><td>土地・施設</td><td>公園・学校・仮設用地等の受入検討</td></tr>
+<tr><td>災害廃棄物</td><td>がれき量推計と仮置き場の必要面積</td></tr>
+<tr><td>計画・業務</td><td><strong>実施記録の入力と確認履歴（P1の本編）</strong></td></tr>
+<tr><td>データ基盤</td><td>データ区分・来歴・<strong>出典索引（保存版含む）209項目</strong>の確認</td></tr>
+<tr><td>分析の検査</td><td>座標・較正・偏りなどの自己検証の結果</td></tr>
+<tr><td>AI構成</td><td>AIの守り方（人の確認必須の場所）の設計</td></tr>
+<tr><td>評価指標・ログ</td><td>操作ログと各計画の品質指標</td></tr>
+</table>
+
+<h2>4. 実施記録の入力と持ち帰り（「計画・業務」タブ）</h2>
+<ul>
+<li>「計画・業務」→ 点検記録の入力で、<strong>完了・未実施・追加調査</strong>を班ごとに登録できます。未実施理由・損傷の有無も残ります。</li>
+<li>入力した実施記録は、<strong>記録・履歴ナンバー付きで保存</strong>され、災害前の点検記録（平時）と発災後の確認を時刻で分けて扱います。</li>
+<li><strong>保存先はこのPCのブラウザだけ</strong>です。別PCや別ブラウザへ移す場合は「JSON書出し」で1ファイル（約7MB）にして持ち運び、「JSON読込み」で復元します。</li>
+<li>ブラウザの「ようこそで許可」が出た場合（ローカル保存の許可）は許可しておくと自動保存が効きます（不要なら確認メッセージそのままで図も動作します）。</li>
+</ul>
+
+<h2>5. 例示プロンプト（「AIに指示」にそのまま入れて試してください）</h2>
+<ul>
+<li>「橋梁の点検計画を作って」（平時／地震後どちらでも動作）</li>
+<li>「八代市の干拓排水施設の被害想定を見せて」</li>
+<li>「公表された被害速報と、対応する橋梁の根拠を見せて」（根拠タブへ誘導）</li>
+<li>「平時の点検で残ったリスク上位20橋を、発災後の計画との整合で示して」（P1の平時→災害時の記録連結）</li>
+<li>「発災後に取得した実データの一覧を見せて」（データ基盤タブに出典索引が表示）</li>
+</ul>
+
+<h2>6. よくあるご質問</h2>
+<table>
+<tr><td>index.html をダブルクリックしても動かない</td><td>(1) ZIPの中身が一部しか解凍されていない（特に <code>kumamoto_event_data</code> が無い）<br>(2) index.html と <code>kumamoto_event_data/</code> の相対位置を変えて移動した → フォルダ構成を保ったまま移動</td></tr>
+<tr><td>地図や写真が表示されない</td><td>上と同じくフォルダの配置です。 インターネット接続を切っている場合も（公式同梱の地図・データで）動作します。</td></tr>
+<tr><td>PCやブラウザを変えたい</td><td>GitHub Pages上の公開版（https://momiji-fullmoon.github.io/phasefree/）でも同一のデータ・画面が動きます。<br>ブラウザ内の保存内容（実施記録など）はサイトごと（ローカル／公開サイト）に独立しているので、移すときは「計画・業務」タブの <strong>JSON書出し → 読込み</strong> を使います。</td></tr>
+<tr><td>Claude で操作・提案を自動化したい</td><td>このzipのローカルAI（簡易ルール）ではなく、claude.ai の Artifact 上に本キットを読み込ませると<strong>Claudeによる計画判断の補助</strong>が有効になります。人の最終確認・承認は画面操作で必須という設計です。</td></tr>
+<tr><td>配布・再配布</td><td>このzipをそのまま丸ごとお渡しください（中身のフォルダ構成は変更しないでください）。データの区分・出典はすべて「データ基盤」タブで確認できます。</td></tr>
+</table>
+
+<h2>7. データと出典</h2>
+<ul>
+<li><strong>実データ</strong>（公表資料・強震記録・衛星画像・橋梁台帳など）はファイル単位で <code>kumamoto_event_data/</code> に保存しており、「データ基盤」タブの出典索引（209件／登録223項目）から<strong>原本URLと保存分</strong>（「開く」ボタン）が確認できます。</li>
+<li><strong>合成データ</strong>（被害想定・SNS・点検初期値・予算など）はアプリ内の説明と出典表示で明示しています。</li>
+<li>未確定事項（自治体名称・正式な計画本文・業務手順の適用版）は「計画・業務」タブの資料カードに<strong>「未確認」</strong>と表示されます。</li>
+</ul>
+<p class="small" style="margin-top:30px">本キットの主眼＝<strong>「同じ研修・打ち合わせの上で、平時と災害時を重ねて議論できる状態にしておくこと」</strong>です。担当者・自治体・関係者の方に、このzipのままお渡しください。—— 熊本2026 インフラ初動AI プロジェクト</p>
+</body>
+</html>

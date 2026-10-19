@@ -2,6 +2,9 @@
 kumamoto_real_data.zip
 20260728162700_ascii.zip
 
+# 配布用ZIP
+phasefree_kumamoto_demo*.zip
+
 # 環境生成物
 __pycache__/
 *.pyc
