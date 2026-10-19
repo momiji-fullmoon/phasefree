@@ -1,0 +1,37 @@
+// 動作確認：npm i playwright && npx playwright install chromium && node tests/smoke.js
+const {chromium}=require('playwright');const path=require('path');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1400,height:1000}});const errs=[];p.on('pageerror',e=>errs.push(e.message));
+ await p.goto('file://'+path.resolve(__dirname,'../index.html'));await p.waitForTimeout(800);
+ const run=async q=>{await p.fill('#ai-q',q);await p.click('#ai-go');await p.waitForFunction(()=>!S.ai.busy,null,{timeout:60000});return p.evaluate(()=>({steps:S.ai.trace.map(t=>t.name+(t.err?'!':'')),check:S.ai.check&&S.ai.check.ok}))};
+ console.log(await run('来週の点検計画を2班・6時間で作って'));
+ console.log(await run('球磨川が氾濫したら何を確認すべき？'));
+ console.log(await run('地震が発生した。現地の点検結果まで取り込んで復旧計画を立てて、結果が信頼できるか確かめて'));
+ console.log(await run('発災後に取得した実データの一覧を見せて'));
+ for(const t of ['list','plan','why','ana','recov','lf','waste','data','ga','agent','metrics'])await p.click(`button[data-tab=${t}]`);
+ await p.click('button[data-tab=data]');await p.waitForTimeout(100);
+ console.log('evdata:',await p.evaluate(()=>{const e=document.getElementById('evdata-sec');return e?{ok:e.textContent.includes('発災後の実データ'),embedded:e.textContent.includes('埋込み索引'),groups:e.querySelectorAll('details').length}:null}));
+ const fails=[];const assert=(c,m)=>{if(!c)fails.push(m)};
+ // P0：原文→業務→施設→訪問先→根拠の一往復（docs/phase-free-plan-integration.md §10）
+ await p.click('button[data-tab=rplan]');await p.waitForTimeout(80);
+ let rt=await p.evaluate(()=>document.getElementById('tabbody').innerText);
+ assert(rt.includes('根拠資料')&&rt.includes('資料未提供')&&rt.includes('未確認'),'rplan docs view with unresolved states');
+ await p.click('#tabbody [data-rp="tasks"]');await p.waitForTimeout(80);
+ rt=await p.evaluate(()=>({t:document.getElementById('tabbody').innerText,n:document.querySelectorAll('#tabbody [data-rp="PLAN"]').length}));
+ assert(rt.t.includes('T-OPEN-01')&&rt.t.includes('T-EMG-01')&&rt.t.includes('T-COOP-01')&&rt.n>=3,'rplan task list');
+ const trows=await p.evaluate(()=>document.querySelectorAll('#tabbody tr[data-a]').length);
+ assert(trows>0,'rplan task asset rows');
+ await p.click('button[data-tab=plan]');await p.waitForTimeout(150);
+ const chips=await p.evaluate(()=>document.querySelectorAll('#tabbody [data-rp^="tasks|"]').length);
+ assert(chips>0,'plan stops carry task chips');
+ await p.click('#tabbody [data-rp^="tasks|"]');await p.waitForTimeout(80);
+ assert((await p.evaluate(()=>S.tab==='rplan'&&document.getElementById('tabbody').innerText.includes('業務一覧'))),'stop chip opens rplan');
+ await p.click('button[data-tab=rplan]');await p.waitForTimeout(60);
+ await p.click('#tabbody [data-rp="tasks"]');await p.waitForTimeout(60);
+ await p.click('#tabbody tr[data-a]');await p.waitForTimeout(150);
+ rt=await p.evaluate(()=>({tab:S.tab,chip:!!document.querySelector('#tabbody [data-rp^="tasks|"]')}));
+ assert(rt.tab==='why'&&rt.chip,'asset row opens why with task chip');
+ await p.click('#tabbody [data-rp^="tasks|"]');await p.waitForTimeout(60);
+ assert((await p.evaluate(()=>S.tab))==='rplan','task chip returns to rplan');
+ console.log('rplan chain:',fails.length?fails.join(' | '):'pass');
+ console.log(errs.length?'errors: '+errs.join(' | '):'ok: no page errors');await b.close();
+ process.exitCode=(errs.length||fails.length)?1:0})();

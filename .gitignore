@@ -1,0 +1,8 @@
+# 取り込み元アーカイブ（実行・公開には不要。GitHubの1ファイル100MB制限のため除外）
+kumamoto_real_data.zip
+20260728162700_ascii.zip
+
+# 環境生成物
+__pycache__/
+*.pyc
+.DS_Store

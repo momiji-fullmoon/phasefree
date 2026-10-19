@@ -1,0 +1,3339 @@
+{
+  "fetched_utc": "2026-10-18T05:09:52Z",
+  "event": "2026-07-28 16:27 JST Kumamoto M7.1 (令和8年熊本地震、JMA)",
+  "files": [
+    {
+      "group": "gsi",
+      "file": "gsi/BOUSAI_20260728_kumamoto_earthquake.html",
+      "url": "https://www.gsi.go.jp/BOUSAI/20260728_kumamoto_earthquake.html",
+      "status": "manual",
+      "bytes": 0,
+      "note": "空中写真/地殻変動/斜面崩壊/1秒解析の索引。直接取得は接続タイムアウト、ローカル未保存",
+      "verified_utc": "2026-10-18T06:30:38Z"
+    },
+    {
+      "group": "gsi",
+      "file": "gsi/activefault_hinagu.zip",
+      "url": "https://www1.gsi.go.jp/geowww/katsudanso/geotiff/194.zip",
+      "status": "manual",
+      "bytes": 0,
+      "note": "活断層図GeoTIFF 日奈久。接続タイムアウト、ローカル未保存",
+      "verified_utc": "2026-10-18T06:30:38Z"
+    },
+    {
+      "group": "gsi",
+      "file": "gsi/chihen3_siryou1.pdf",
+      "url": "https://www.gsi.go.jp/common/000280149.pdf",
+      "status": "manual",
+      "bytes": 0,
+      "note": "電子基準点変動 資料1 (2.7MB)。接続タイムアウト、ローカル未保存",
+      "verified_utc": "2026-10-18T06:30:38Z"
+    },
+    {
+      "group": "gsi",
+      "file": "gsi/chihen3_siryou2.pdf",
+      "url": "https://www.gsi.go.jp/common/000280150.pdf",
+      "status": "manual",
+      "bytes": 0,
+      "note": "電子基準点変動 資料2 (474KB)。接続タイムアウト、ローカル未保存",
+      "verified_utc": "2026-10-18T06:30:38Z"
+    },
+    {
+      "group": "gsi",
+      "file": "gsi/hokai_kumamoto_yatsushiro0814.zip",
+      "url": "https://www1.gsi.go.jp/geowww/saigai/20260728_kumamoto/hokai/kumamoto_yatsushiro0814.zip",
+      "status": "manual",
+      "bytes": 0,
+      "note": "斜面崩壊・堆積分布 GeoJSON (56KB)。直接取得は接続タイムアウト、ローカル未保存",
+      "verified_utc": "2026-10-18T06:30:38Z"
+    },
+    {
+      "group": "gsi",
+      "file": "gsi/insar3d_ew.tif",
+      "url": "https://insarmap.gsi.go.jp/geotiff/2026kumamoto/urgent_earthquake_20260728R8kumamoto_3d_9obs_clip.ew.mask.tif",
+      "status": "stored",
+      "bytes": 18141124,
+      "sha256": "027b42b5ac596c7d7802ed2b2c4b8b73a21ec1f0a4822eae5a063556f37ba812",
+      "format": "tiff",
+      "metadata": {
+        "width": 2322,
+        "height": 3209
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "gsi",
+      "file": "gsi/insar3d_ns.tif",
+      "url": "https://insarmap.gsi.go.jp/geotiff/2026kumamoto/urgent_earthquake_20260728R8kumamoto_3d_9obs_clip.ns.mask.tif",
+      "status": "stored",
+      "bytes": 18449796,
+      "sha256": "eab30ca0d7882d4cba0750e8edfb07af4078b6022754aaed217abe0a1a98eee3",
+      "format": "tiff",
+      "metadata": {
+        "width": 2322,
+        "height": 3209
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "gsi",
+      "file": "gsi/insar3d_ud.tif",
+      "url": "https://insarmap.gsi.go.jp/geotiff/2026kumamoto/urgent_earthquake_20260728R8kumamoto_3d_9obs_clip.ud.mask.tif",
+      "status": "stored",
+      "bytes": 18586418,
+      "sha256": "88c45d23a0470199309c905acabe7d5fa5a7ca00584fb383e9851afcccbb68b2",
+      "format": "tiff",
+      "metadata": {
+        "width": 2322,
+        "height": 3209
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jishin_honbu",
+      "file": "jishin_honbu/20260728_kumamoto_1.pdf",
+      "url": "https://www.static.jishin.go.jp/resource/monthly/2026/20260728_kumamoto_1.pdf",
+      "status": "stored",
+      "bytes": 15108593,
+      "sha256": "c3f98357ba75662b7ebdb7e95917d8e84b969f3c5f448ad912be0b1882f0383e",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jishin_honbu",
+      "file": "jishin_honbu/20260728_kumamoto_2.pdf",
+      "url": "https://www.static.jishin.go.jp/resource/monthly/2026/20260728_kumamoto_2.pdf",
+      "status": "stored",
+      "bytes": 12428236,
+      "sha256": "03938008ab77cd9e3e731c6d1a51a8f5993182eb7eac379b9c58341d5c000b21",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin",
+      "file": "jma_kyoshin/index.html",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/index.html",
+      "status": "stored",
+      "bytes": 36949,
+      "sha256": "f9455ea44182d453653f0f1709beb901922bb0435ef71352f117b83315c66371",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000141509.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000141509.csv",
+      "status": "stored",
+      "bytes": 620258,
+      "sha256": "6420d20807753d623f6088378235588c23c5cd64eb099ecf42025d60d22d0817",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 00"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000141516.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000141516.csv",
+      "status": "stored",
+      "bytes": 618647,
+      "sha256": "6895dd94a2542746bb1f27bf89fc9e8d0b841687f821ca11e81aa4c5f3646fbf",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 20"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000142511.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000142511.csv",
+      "status": "stored",
+      "bytes": 626592,
+      "sha256": "bb4d984f569093610ade6a6be54e4bf5f8fa8650cd55bf0e7687cf14471bc387",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 00"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000142512.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000142512.csv",
+      "status": "stored",
+      "bytes": 621097,
+      "sha256": "33817d2accaf89008f4f6d34d432362d023789d1ef850f319a7e68fd9d8b2d85",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000142513.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000142513.csv",
+      "status": "stored",
+      "bytes": 619364,
+      "sha256": "a496fa3cf8d14b7ed476c9efd39b02bc8e4211dbe8e8d7d4d0137d3f6ef41551",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000142514.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000142514.csv",
+      "status": "stored",
+      "bytes": 622323,
+      "sha256": "37d67dfead01386ad497df552a0e4a0ec3dcb912cd8b7203def9c28b0aa30713",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000142522.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000142522.csv",
+      "status": "stored",
+      "bytes": 617515,
+      "sha256": "82da3bcf6cb24f9cb99f71876815483014685975273d64d1a3e5867f387f7590",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 20"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000147327.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000147327.csv",
+      "status": "stored",
+      "bytes": 618972,
+      "sha256": "475dfddff5c140233e481266881b060d99393767facceda4f00aa249e7368313",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 00"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000147332.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000147332.csv",
+      "status": "stored",
+      "bytes": 617998,
+      "sha256": "efd11a29ebeddfc758b75bef19b440b55e611b8598d92f83997a37b4a0d904e7",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000147818.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000147818.csv",
+      "status": "stored",
+      "bytes": 621360,
+      "sha256": "c332711b505146768339a044212ab44103a1c5ff138bfccc071228a58b475021",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000147819.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000147819.csv",
+      "status": "stored",
+      "bytes": 624935,
+      "sha256": "c44c4b01dc13d5b3a2092487fd344f3a4d2e74f34de4e84ee66cebdc40ca1987",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 00"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000147824.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000147824.csv",
+      "status": "stored",
+      "bytes": 128835,
+      "sha256": "4609a3797166dceb8960700f257f54aacbc098751da6777ab21adcca8e0b8dd3",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 6000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000147838.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000147838.csv",
+      "status": "stored",
+      "bytes": 618017,
+      "sha256": "19191a67c4deebe9d9d70a57839f12eea5dc3a8a9a80dad07d1c9d39f9514a0f",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000190079.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000190079.csv",
+      "status": "stored",
+      "bytes": 496569,
+      "sha256": "37710bf9228665b39e686a87d8509a4d3c1eba4b56e40e68d23133d29a792536",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 24000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000190083.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000190083.csv",
+      "status": "stored",
+      "bytes": 498655,
+      "sha256": "1cbd290fa9440e4153d548be91b8f5c69064bfdac6dbc12fd3746ca802e9bab2",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 24000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 20"
+      },
+      "verified_utc": "2026-10-18T06:42:37Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000191026.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000191026.csv",
+      "status": "stored",
+      "bytes": 620962,
+      "sha256": "adfedef1f2c92451c588b0a83c3c7ca04dd4b19ce5c2b4fbfe8e4433cf68604d",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 20"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000191046.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000191046.csv",
+      "status": "stored",
+      "bytes": 621179,
+      "sha256": "74cefb3b934f61a7aeb18a2f3bfa1fea3fb8ab27829d11ef239c7f48e0baa14b",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 20"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000192026.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000192026.csv",
+      "status": "stored",
+      "bytes": 372979,
+      "sha256": "93cd2b6690d94382a9b0c423346bebf5e5317e63777cf006c687c9a3cd0f8d91",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 18000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 20"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000192048.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000192048.csv",
+      "status": "stored",
+      "bytes": 497428,
+      "sha256": "a84174caf14cbbf0fafaab1ed4c03284c35a7cd58a692f9aa27f55052a50991a",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 24000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000192049.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000192049.csv",
+      "status": "stored",
+      "bytes": 622374,
+      "sha256": "2ecdd6174b81f295664d6394182bd9b67dbcc76837d3d65192eb9b518e160b23",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000192051.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000192051.csv",
+      "status": "stored",
+      "bytes": 497960,
+      "sha256": "d0250b39ef4368a5ae199f7cce18312db52a7509682e845427344fc4144e9923",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 24000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000192052.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000192052.csv",
+      "status": "stored",
+      "bytes": 621710,
+      "sha256": "3fc0fe2a9985dafa2dc8e4b2f2bdc2a2f4deb772c90c6c9d6c944495107781ec",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000192053.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000192053.csv",
+      "status": "stored",
+      "bytes": 621335,
+      "sha256": "bd3629129e88a91af9c8bb37477c85ce72bbca1a0ff3836abe4cce9b9588b0ba",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000192054.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000192054.csv",
+      "status": "stored",
+      "bytes": 621118,
+      "sha256": "6715ba157829b22faf21e56f88b0ced222eb0667b7f6b688dc05f2eca0b7ef65",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000192055.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000192055.csv",
+      "status": "stored",
+      "bytes": 623259,
+      "sha256": "a96b44b30336e457e6e8e6c861d4c777be4966093725f1f2d583be66588606d6",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000192056.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000192056.csv",
+      "status": "stored",
+      "bytes": 621623,
+      "sha256": "40aa945220fb01c3f274cd1fc66f49d2b301f69a1901abdbf912da3282d79f6b",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193002.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193002.csv",
+      "status": "stored",
+      "bytes": 623818,
+      "sha256": "25dd0b3f24f2c42ea9e0834781629b96ca7f6a25494eb50d35a3990ad002e388",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193010.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193010.csv",
+      "status": "stored",
+      "bytes": 619371,
+      "sha256": "8af2cb83f19b4f5e1efd1eab4a83bba5304c18306c7c172225e2f84c718ca1ac",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193011.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193011.csv",
+      "status": "stored",
+      "bytes": 619579,
+      "sha256": "2e0294f68cfd7a76a26b55ed4b1f5b35d13c190b2540e68627da6632d6486428",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193017.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193017.csv",
+      "status": "stored",
+      "bytes": 619009,
+      "sha256": "79d6ea753c17c50b5da058a793349c7545a761332c98c8877750b305f8ea1490",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193020.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193020.csv",
+      "status": "stored",
+      "bytes": 626238,
+      "sha256": "95d77e8d314cafcdcdf944a9a29c00a9880e4be23f83cbfa1fa765ed34ed8dba",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 00"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193021.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193021.csv",
+      "status": "stored",
+      "bytes": 626002,
+      "sha256": "a3870bd9e5c003a1a4fc0b7a43158e1455b58a6982ae2a49adfcc97b10e5285d",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 00"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193022.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193022.csv",
+      "status": "stored",
+      "bytes": 594006,
+      "sha256": "db94a0971a30f085eb72606a8e540890a6522a607979c6bd9a23ff87ef0dfbd8",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 00"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193025.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193025.csv",
+      "status": "stored",
+      "bytes": 630880,
+      "sha256": "903609db90c941686d1ec6c933450a595f86a8d6497d851cf8c41cb31bce891b",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 00"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193026.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193026.csv",
+      "status": "stored",
+      "bytes": 624949,
+      "sha256": "66ba86d16126e355a2441a1810e8e4c7eecc9a908ac072eaf997f1b8ab40a780",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 00"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193029.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193029.csv",
+      "status": "stored",
+      "bytes": 620437,
+      "sha256": "712a4aff295dfd7448036ea959c22d48ee8d9216c5781dfa7e93737264f4c8a9",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193030.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193030.csv",
+      "status": "stored",
+      "bytes": 620294,
+      "sha256": "83715b03b7802df04d489afebbd1d6f11656da3c265d3dbb5889ca94240812c8",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193032.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193032.csv",
+      "status": "stored",
+      "bytes": 620967,
+      "sha256": "6404c9b556fde31c2e7211c94b45a39750117de3d06a5974aa0c58a53bcb79a1",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193037.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193037.csv",
+      "status": "stored",
+      "bytes": 619544,
+      "sha256": "d0c9dfd3676c6c5eff75ce08173e1c20fb39fb363572e126f27e25b4605e2381",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193038.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193038.csv",
+      "status": "stored",
+      "bytes": 620469,
+      "sha256": "b66b288bc46ee2b6a06e02d5bbc338ff4774a5e473ed86b39785658ab9291c31",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193039.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193039.csv",
+      "status": "stored",
+      "bytes": 620878,
+      "sha256": "02e2e26176964540f801c7603e355f83e4e228656c55acbd9643e7ee2f96d83c",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193040.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193040.csv",
+      "status": "stored",
+      "bytes": 623039,
+      "sha256": "c5b86afc9bd2505b29c3fa4f60fc5656b44f5be03173f819f386e9fc41dd3043",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193041.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193041.csv",
+      "status": "stored",
+      "bytes": 619237,
+      "sha256": "9863c022fab523e6b9304823932075f2874709c2352176272c080121d9993083",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193042.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193042.csv",
+      "status": "stored",
+      "bytes": 620942,
+      "sha256": "f53c1c6c83f2a2da4c6714b4c1792e45d07c1a786f8758c96ea6c5977fc0fcf7",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193044.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193044.csv",
+      "status": "stored",
+      "bytes": 619074,
+      "sha256": "935e87a16ff4c45e41346fc59c6083af39377a0ec8031082b0a0e22f72d4c222",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193045.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193045.csv",
+      "status": "stored",
+      "bytes": 620625,
+      "sha256": "28282e90225acf396b705a77b2a23628b696dd34d29466da4b40ed06c0561595",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193047.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193047.csv",
+      "status": "stored",
+      "bytes": 619953,
+      "sha256": "d2928628ab1c0302942f70b2d5a722c4e24feea17344599b5369e26917575dd9",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193048.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193048.csv",
+      "status": "stored",
+      "bytes": 622648,
+      "sha256": "728c9162ced75dd6454cd2df7ccf31f9ed30f0c53e17318c4fab75e01fe9617a",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193049.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193049.csv",
+      "status": "stored",
+      "bytes": 620683,
+      "sha256": "3833b6dcd0b78013baf76e32fe185d3206bb029e68b4eec4cdf1ac15181c8a97",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193051.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193051.csv",
+      "status": "stored",
+      "bytes": 623009,
+      "sha256": "e60404bab33b82f89eededb1d4d80896b32747083ffe291066527179b74f4eab",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193055.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193055.csv",
+      "status": "stored",
+      "bytes": 622749,
+      "sha256": "16bae89d02593efb76752bd4f175f14b947e948798e861073e98a811fd34468e",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 00"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193056.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193056.csv",
+      "status": "stored",
+      "bytes": 625416,
+      "sha256": "93b228aa92030d73224b006a3cef83ce48bb2c825b62c9e1f1d097324aadda8d",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 00"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193057.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193057.csv",
+      "status": "stored",
+      "bytes": 623968,
+      "sha256": "0ea0c30b03e88d5e93e36ec0b8452d5dac16762f7f8375f8526cf4ea928fff29",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 00"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193061.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193061.csv",
+      "status": "stored",
+      "bytes": 622270,
+      "sha256": "d8fe4eddccf8cc3d75f7dde69e27a10b3667104e697ed1b3b31f8347e78e8ff7",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 00"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193062.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193062.csv",
+      "status": "stored",
+      "bytes": 620973,
+      "sha256": "c9590df60ce1792dd7359381282ae21a13b1512ef4f9a7f77b2a8c0c13aa534b",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193065.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193065.csv",
+      "status": "stored",
+      "bytes": 621482,
+      "sha256": "5f4e6b576b8d4057fdec466943e7eaf7e183083665b91d15b392d2c1382040c3",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193068.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193068.csv",
+      "status": "stored",
+      "bytes": 618414,
+      "sha256": "6bfb17aa1caaa5f92e685597f3fac04961a9216a253d60f0e5b3b536ae66cecf",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193074.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193074.csv",
+      "status": "stored",
+      "bytes": 618777,
+      "sha256": "9a367453d1431e61fb9fa0f28e4d2c63f448eb35cd417aaf6c46691e2c95ec6c",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193081.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193081.csv",
+      "status": "stored",
+      "bytes": 620355,
+      "sha256": "a29f018057dc7f94f9ef98c602e6deca08e3563f201109a3a2ef495ff02486e5",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:38Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193083.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193083.csv",
+      "status": "stored",
+      "bytes": 622951,
+      "sha256": "fc48b7596b23e868171d03e68de08cbe58d41c7a2f2baa551d9508ad4c252b5b",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193084.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193084.csv",
+      "status": "stored",
+      "bytes": 619873,
+      "sha256": "b0515d8c01094a193d4d1687f46d68a5516217464c666e1ece996127f202096a",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193085.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193085.csv",
+      "status": "stored",
+      "bytes": 620873,
+      "sha256": "0f0fb4bbf99da4881a00c1befe75699df11bcc6c2b3b6edd14505d9363d060e9",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193088.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193088.csv",
+      "status": "stored",
+      "bytes": 619895,
+      "sha256": "9943ff3c2805ec26fafc1577630774654b2d0da1c06b57dd527eba26010a427b",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193089.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193089.csv",
+      "status": "stored",
+      "bytes": 617989,
+      "sha256": "57e0a7ca9da1a3a4bbb494b6a70422302cfa9a4ae4835ac176baf7de79440ed7",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193091.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193091.csv",
+      "status": "stored",
+      "bytes": 624142,
+      "sha256": "cdfd4ca1611a64fd441d8490c67370f7ea5a4a67fb9d4e8bbfd53edc15ba7ac1",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193092.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193092.csv",
+      "status": "stored",
+      "bytes": 617899,
+      "sha256": "fe154bac1b6378235cdbee2d9171c419067859fe1e92872a5f8a7e7a1d1232df",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193094.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193094.csv",
+      "status": "stored",
+      "bytes": 619240,
+      "sha256": "04d16772115577b950a68277e690988d16ab7e87d4ae3cd60d07567d87f7fc7e",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193096.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193096.csv",
+      "status": "stored",
+      "bytes": 620327,
+      "sha256": "f6b02a9bb94ed7cb29bd642c9d4b53757dc88ca4b31bb612c067887178c7239f",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193098.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193098.csv",
+      "status": "stored",
+      "bytes": 619121,
+      "sha256": "c75c809d0a8f01e805492ef998c4766d7999e2e33f65882af1dcb62de674f759",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193100.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193100.csv",
+      "status": "stored",
+      "bytes": 621929,
+      "sha256": "3491a920ec1cf3d9798c18697022d86102ca7f61c0f738d15c9febfe8aba6a5f",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000193101.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000193101.csv",
+      "status": "stored",
+      "bytes": 621132,
+      "sha256": "2c36391161d0a5e52daf484b4401b33d8365135167ccd5c5eaf039913d590544",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000195003.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000195003.csv",
+      "status": "stored",
+      "bytes": 618014,
+      "sha256": "e6348eb23c00fb0ebd6b686bfb9e56ed7b84c6ecad277e325c2615f8a5968b32",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 20"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000195019.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000195019.csv",
+      "status": "stored",
+      "bytes": 620353,
+      "sha256": "c4a77e4ec05d313b1dfb8430926b3e924406978d115b589115585d63a80d6c8b",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000196034.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000196034.csv",
+      "status": "stored",
+      "bytes": 663609,
+      "sha256": "0039188b473f56e55d25970882d3b2c1a71e6a2112d10a76920daa416aec6d3d",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 20"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000196036.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000196036.csv",
+      "status": "stored",
+      "bytes": 667544,
+      "sha256": "bbf81446da7514ef93d9f377b78983fa5b183e3d150d2f328b2ec5eb34a5ecdb",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000196038.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000196038.csv",
+      "status": "stored",
+      "bytes": 687819,
+      "sha256": "1a51bb773e0a698e031a4800f15f53a9500a57bd262ed8461276fbac388985b0",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 20"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000196044.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000196044.csv",
+      "status": "stored",
+      "bytes": 642489,
+      "sha256": "6387a8126d26d4318fa5576b7e8322a24394cdb6b52506c849a2d0631ae1f386",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_kyoshin/wp",
+      "file": "jma_kyoshin/wp/acc20260728000196052.csv",
+      "url": "https://www.data.jma.go.jp/eqev/data/kyoshin/jishin/2607281627_kumamoto/data/acc20260728000196052.csv",
+      "status": "stored",
+      "bytes": 655870,
+      "sha256": "ebd06ebe25a025cd70ba323f14065a4b23d3d45fa8040b3755a7e517fc2bea7f",
+      "format": "csv",
+      "metadata": {
+        "sampling_rate_hz": 100.0,
+        "samples": 30000,
+        "unit": "gal(cm/s/s)",
+        "initial_time_jst": "2026 07 28 16 27 10"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_reports",
+      "file": "jma_reports/202607281730.html",
+      "url": "https://www.jma.go.jp/jma/press/2607/28a/202607281730.html",
+      "status": "stored",
+      "bytes": 9067,
+      "sha256": "e67cb7ef8e87fb8f388ceacec8b9950b363925259036fb8833e340c52a1478c8",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_reports",
+      "file": "jma_reports/202607281915.html",
+      "url": "https://www.jma.go.jp/jma/press/2607/28b/202607281915.html",
+      "status": "stored",
+      "bytes": 5852,
+      "sha256": "96e26edf89e2858a09180220f95a6fdd631658305e57712bb3c5ed6885ef4e70",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_reports",
+      "file": "jma_reports/202607282030.html",
+      "url": "https://www.jma.go.jp/jma/press/2607/28d/202607282030.html",
+      "status": "stored",
+      "bytes": 9033,
+      "sha256": "6ffa5101505a2a6cfe50b96a336593ae0e8d9b1b87d229ebaa0872a0605f2950",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_reports",
+      "file": "jma_reports/20260728_kumamoto_jishin.html",
+      "url": "https://www.jma.go.jp/jma/menu/20260728_kumamoto_jishin.html",
+      "status": "stored",
+      "bytes": 25438,
+      "source_note": "前版で欠落したURLを提供元の掲載リンクから復元",
+      "sha256": "fef7f8c44d129e6c2e86402446bd414cd6e7e63940285e1e38ad616f1ff4266e",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_reports/adep",
+      "file": "jma_reports/adep/260728a.html",
+      "url": "https://www.adep.or.jp/kanren/Eq_data/260728a.html",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 24847,
+      "sha256": "f7802d960200d88b56194ff7dcbd538e1b9c937abf7972205df81a8ebc9b7a25",
+      "format": "html",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:30:37Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"610f-657b855aa3f16\"",
+        "Last-Modified": "Wed, 29 Jul 2026 04:24:43 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "jma_reports",
+      "file": "jma_reports/kaisetsu202609241400.pdf",
+      "url": "https://www.jma.go.jp/jma/press/2609/24a/kaisetsu202609241400.pdf",
+      "status": "stored",
+      "bytes": 3445262,
+      "sha256": "22acbd157cfba3f3a264f396e75568298fced93bf7b67c25dd22332b211d0a4a",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "jma_reports",
+      "file": "jma_reports/kumamoto_kaisetsu_20260908.pdf",
+      "url": "https://www.jma.go.jp/jma/menu/kumamoto_kaisetsu_20260908.pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 2342881,
+      "sha256": "0c1b9918cd64ad382aca7ea0ba6298366ee35219667b8de8058899ab36c5ebdf",
+      "format": "pdf",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:30:36Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"8782e1c513b594072b64a4b790466920\"",
+        "Last-Modified": "Fri, 18 Sep 2026 06:23:27 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "kyoshin_topics",
+      "file": "kyoshin_topics/20260728162700",
+      "url": "https://www.kyoshin.bosai.go.jp/ja/topics/20260728162700",
+      "status": "stored",
+      "bytes": 16747,
+      "sha256": "86c36f78b025341b052ececd636abb4eb225b866838d69626b1ff0135d9ca19e",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "kyoshin_topics",
+      "file": "kyoshin_topics/20260728170800",
+      "url": "https://www.kyoshin.bosai.go.jp/ja/topics/20260728170800",
+      "status": "stored",
+      "bytes": 16822,
+      "sha256": "e1901b69a0828d21f00dfa4ede41b3aaeb301b8ebdcb079210c16f59fb000869",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "kyoshin_topics",
+      "file": "kyoshin_topics/tbh_20260728162700.html",
+      "url": "https://www.kyoshin.bosai.go.jp/kyoshin/topics/html/20260728162700/20260728162700/index.html",
+      "status": "manual",
+      "bytes": 0,
+      "note": "補足ページの実在・取得方法は未確認。本震topicsは別項目に保存済み",
+      "verified_utc": "2026-10-18T06:32:01Z"
+    },
+    {
+      "group": "pasco_gm",
+      "file": "pasco_gm/press_026.html",
+      "url": "https://www.pasco.co.jp/News/press/026/",
+      "status": "manual",
+      "bytes": 0,
+      "note": "以前の候補URLは404。対応する公表ページとALOS-2成果物の提供条件を要確認",
+      "verified_utc": "2026-10-18T06:32:01Z"
+    },
+    {
+      "group": "reports_cabnet",
+      "file": "reports_cabnet/r8kumamoto_jishin_20260729.pdf",
+      "url": "https://www.bousai.go.jp/updates/r8kumamoto_jishin/status/pdf/r8kumamoto_jishin_20260729.pdf",
+      "status": "stored",
+      "bytes": 824294,
+      "sha256": "a218b7178174b2c10b17195fdc47fb797b9944441e71639b08858e3d76470fb7",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_cabnet",
+      "file": "reports_cabnet/r8kumamoto_jishin_20260805.pdf",
+      "url": "https://www.bousai.go.jp/updates/r8kumamoto_jishin/status/pdf/r8kumamoto_jishin_20260805.pdf",
+      "status": "stored",
+      "bytes": 1833609,
+      "sha256": "6a985b565c4127a9bb3366715450446c03f365afa31446631ace7ddcb513a8d0",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_cabnet",
+      "file": "reports_cabnet/r8kumamoto_jishin_20260815.pdf",
+      "url": "https://www.bousai.go.jp/updates/r8kumamoto_jishin/status/pdf/r8kumamoto_jishin_20260815.pdf",
+      "status": "stored",
+      "bytes": 4084675,
+      "sha256": "cfc26002c40951e9c01f6b7c6aac7e8245ab9ab020e010e3f9b2faba1ea52024",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_cabnet",
+      "file": "reports_cabnet/r8kumamoto_jishin_20260825.pdf",
+      "url": "https://www.bousai.go.jp/updates/r8kumamoto_jishin/status/pdf/r8kumamoto_jishin_20260825.pdf",
+      "status": "stored",
+      "bytes": 2502083,
+      "sha256": "28e0821f6ee599c8e32ccc291f497d62280de98a73f5254dea2c5afa30ace88c",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_cabnet",
+      "file": "reports_cabnet/r8kumamoto_jishin_20261005.pdf",
+      "url": "https://www.bousai.go.jp/updates/r8kumamoto_jishin/status/pdf/r8kumamoto_jishin_20261005.pdf",
+      "status": "stored",
+      "bytes": 3480467,
+      "sha256": "b2630463b26bb6554195cc560921b395c6f636fba7b10f0f248e6fb0dad29458",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_expert",
+      "file": "reports_expert/dpri_goto_report0.pdf",
+      "url": "http://wwwcatfish.dpri.kyoto-u.ac.jp/~goto/eq/20260728/report0.pdf",
+      "status": "stored",
+      "bytes": 1043236,
+      "sha256": "187e657286328a7706bbf83a2ec644633ced5c95cfad8371a5f3623f2a61e191",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_expert",
+      "file": "reports_expert/jichitai_shindokei_zantei.pdf",
+      "url": "https://committees.jsce.or.jp/eec205/system/files/20260728_Kumamoto_Jichitai_Shindokei_Zantei.pdf",
+      "status": "stored",
+      "bytes": 1089983,
+      "sha256": "6f009537308f89ac7445a7c35af6afbe67495f9887850a978cde1de0de4f4099",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_expert",
+      "file": "reports_expert/kansoku_hakei_bunseki_zantei.pdf",
+      "url": "https://committees.jsce.or.jp/eec205/system/files/20260804_R8_Kumamoto_M7.1_Kansoku_Hakei_Bunseki_Zantei_v2.pdf",
+      "status": "stored",
+      "bytes": 3048560,
+      "sha256": "7eea8309e3a1db39c1061e2866f5605f548fe58b2818752d70bfd104aa29bf19",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_expert",
+      "file": "reports_expert/kmm012_yatsushiro_2016_2026.pdf",
+      "url": "https://committees.jsce.or.jp/eec205/system/files/20260804_KMM012_Yatsushiro_2016_2026_Comparison.pdf",
+      "status": "stored",
+      "bytes": 809228,
+      "sha256": "a5fa1b50fdcbd2e98e2d742314a22eed8e4d6d26436f9f5c513a49d8bbd7c0eb",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_expert",
+      "file": "reports_expert/ku_strdyn_lab.pdf",
+      "url": "http://dynamics.kuciv.kyoto-u.ac.jp/reports/ku-strdyn_lab-20260728.pdf",
+      "status": "stored",
+      "bytes": 3078082,
+      "sha256": "654b6ba2ce135c912e3c3b7c1b6a814ef3e568672030a8a4602ffa6a969cfc5a",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_expert",
+      "file": "reports_expert/ueda_takatoku_sasaki.pdf",
+      "url": "https://committees.jsce.or.jp/eec205/system/files/20260731_R8_Kumamoto_Ueda_Takatoku_Inoue_Sasaki.pdf",
+      "status": "stored",
+      "bytes": 4377934,
+      "sha256": "98436eb3fbbfab3559faa33eaba6c432e440059da4669e6a2ad5495aab000eba",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_expert",
+      "file": "reports_expert/ut_ando_hinagu_fault_offset.pdf",
+      "url": "http://www-solid.eps.s.u-tokyo.ac.jp/~ando/kuma/Hinagu_fault_offset.pdf",
+      "status": "stored",
+      "bytes": 590772,
+      "sha256": "0dd523e06666dcc4252554e534bff07ff9ca23c3808b306e9dc67305124d34b5",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_fdma",
+      "file": "reports_fdma/20260728kumamotojishin61.pdf",
+      "url": "https://www.fdma.go.jp/disaster/info/items/20260728kumamotojishin61.pdf",
+      "status": "stored",
+      "bytes": 121415,
+      "sha256": "b1323b49118f335855f36b8b3db78a5a2c8d853676c244cc7fdd623241f6f79a",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_fdma",
+      "file": "reports_fdma/20260728kumamotojishin65.pdf",
+      "url": "https://www.fdma.go.jp/disaster/info/items/20260728kumamotojishin65.pdf",
+      "status": "stored",
+      "bytes": 120820,
+      "sha256": "c682e012247cc4151eefd27a6a48b3790d97c6cda1f7b79ae9225d7263dd00e1",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_fdma",
+      "file": "reports_fdma/878b23d33db5f5e642d2ee38ecd24674b7ef2664.pdf",
+      "url": "https://www.fdma.go.jp/disaster/info/items/878b23d33db5f5e642d2ee38ecd24674b7ef2664.pdf",
+      "status": "stored",
+      "bytes": 120473,
+      "sha256": "1c836a85d48cea9ea13d5ae5a046ca575988e6d2d242fb4f139768e6678a9271",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_mlit",
+      "file": "reports_mlit/69",
+      "url": "https://committees.jsce.or.jp/eec205/node/69",
+      "status": "stored",
+      "bytes": 30678,
+      "sha256": "9bdfae4be07851b3ae41f4156936ed5b9c6b94291412590f55fdba46598c05e7",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_mlit",
+      "file": "reports_mlit/r80728kumamotozisinn.html",
+      "url": "https://www.qsr.mlit.go.jp/bousai_joho/r80728kumamotozisinn.html",
+      "status": "stored",
+      "bytes": 91474,
+      "sha256": "3d2474d4b7d58b0b1251b9c353b1b4109e2a537ea0fdd2287afd97b13e64eb5c",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_mlit",
+      "file": "reports_mlit/saigai_260728.html",
+      "url": "https://www.mlit.go.jp/saigai/saigai_260728.html",
+      "status": "stored",
+      "bytes": 25871,
+      "sha256": "137bb7507b55a6ab7223e9077054342a2c157e4f404efdbfd0f1c03fce20818b",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_pref",
+      "file": "reports_pref/274465.html",
+      "url": "https://www.pref.kumamoto.jp/soshiki/32/274465.html",
+      "status": "stored",
+      "bytes": 24953,
+      "sha256": "d7c349c35fe820936cd9742bcafb160a836bf1eda1d4e927ad20311c0267a466",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "reports_pref",
+      "file": "reports_pref/315575.pdf",
+      "url": "https://www.pref.kumamoto.jp/uploaded/attachment/315575.pdf",
+      "status": "stored",
+      "bytes": 105886,
+      "sha256": "4057dab0eb9b45479a67321fdb1c1b7b0873b530ab94509e9e422b42a5b447d8",
+      "format": "pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia",
+      "file": "sentinel_asia/article20260728JP.html",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP.html",
+      "status": "stored",
+      "bytes": 96531,
+      "sha256": "87c744e5113f848e1cf9ba47c0e1fa30ba39d48fc5628a59778036848f9d4e3c",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia",
+      "file": "sentinel_asia/files/584e07bb46af479cbe435978514c9a92",
+      "url": "https://storymaps.arcgis.com/collections/584e07bb46af479cbe435978514c9a92?item=1",
+      "status": "stored",
+      "bytes": 228509,
+      "source_note": "前版で欠落したURLを提供元の掲載リンクから復元",
+      "sha256": "f99b388b9a070aef02bbfe83c88beafd34350302294922217af845daf70a0761",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z"
+    },
+    {
+      "group": "sentinel_asia",
+      "file": "sentinel_asia/files/9afbac2a722f4070a7236cf972fca61e",
+      "url": "https://storymaps.arcgis.com/collections/9afbac2a722f4070a7236cf972fca61e?item=1",
+      "status": "stored",
+      "bytes": 2598,
+      "source_note": "前版で欠落したURLを提供元の掲載リンクから復元",
+      "sha256": "f15daeffda61b4a5b8b607edfdfb08367cf98dc5ecb0fc5be8f6d4d14a2dc360",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS2345170680-201013-UBSL2.1GUA",
+      "file": "sentinel_asia/img/ALOS2345170680-201013-UBSL2.1GUA/IMG-HH-ALOS2345170680-201013-UBSL2.1GUA.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS2345170680-201013-UBSL2.1GUA/IMG-HH-ALOS2345170680-201013-UBSL2.1GUA.jpg",
+      "status": "stored",
+      "bytes": 60887,
+      "sha256": "266e718db253ca986a2049d6ff07715a07fbde5025761f4179fbad27584611dc",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/IMG-HH-ALOS2345170680-201013-UBSL2.1GUA.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS2345170690-201013-UBSL2.1GUA",
+      "file": "sentinel_asia/img/ALOS2345170690-201013-UBSL2.1GUA/IMG-HH-ALOS2345170690-201013-UBSL2.1GUA.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS2345170690-201013-UBSL2.1GUA/IMG-HH-ALOS2345170690-201013-UBSL2.1GUA.jpg",
+      "status": "stored",
+      "bytes": 55970,
+      "sha256": "ad355a61176be81aeadb3e4ddc1693477615cf2d0f8d1cbd6881fc93b7a15967",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/IMG-HH-ALOS2345170690-201013-UBSL2.1GUA.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS2461172910-221207-UBSL2.1GUD",
+      "file": "sentinel_asia/img/ALOS2461172910-221207-UBSL2.1GUD/IMG-HH-ALOS2461172910-221207-UBSL2.1GUD.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS2461172910-221207-UBSL2.1GUD/IMG-HH-ALOS2461172910-221207-UBSL2.1GUD.jpg",
+      "status": "stored",
+      "bytes": 75725,
+      "sha256": "fc4914d32ed98104b3dc2efc37e0b2e83d520d163250219670df6326a3868ff4",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/IMG-HH-ALOS2461172910-221207-UBSL2.1GUD.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS2461172920-221207-UBSL2.1GUD",
+      "file": "sentinel_asia/img/ALOS2461172920-221207-UBSL2.1GUD/IMG-HH-ALOS2461172920-221207-UBSL2.1GUD.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS2461172920-221207-UBSL2.1GUD/IMG-HH-ALOS2461172920-221207-UBSL2.1GUD.jpg",
+      "status": "stored",
+      "bytes": 70054,
+      "sha256": "3fa4c0e89825cd6f3831568c34d67d1f228308ec5ff3ab4b1c1aec05c5c711fa",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/IMG-HH-ALOS2461172920-221207-UBSL2.1GUD.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS2461172930-221207-UBSL2.1GUD",
+      "file": "sentinel_asia/img/ALOS2461172930-221207-UBSL2.1GUD/IMG-HH-ALOS2461172930-221207-UBSL2.1GUD.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS2461172930-221207-UBSL2.1GUD/IMG-HH-ALOS2461172930-221207-UBSL2.1GUD.jpg",
+      "status": "stored",
+      "bytes": 69568,
+      "sha256": "144a251fc1860f476a2cabbcf984a3c8a3fcfcdf9e1d3fcb94b30a6b565bb5c8",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/IMG-HH-ALOS2461172930-221207-UBSL2.1GUD.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS2605990680-250812-UBSL2.1GUA",
+      "file": "sentinel_asia/img/ALOS2605990680-250812-UBSL2.1GUA/IMG-HH-ALOS2605990680-250812-UBSL2.1GUA.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS2605990680-250812-UBSL2.1GUA/IMG-HH-ALOS2605990680-250812-UBSL2.1GUA.jpg",
+      "status": "stored",
+      "bytes": 61530,
+      "sha256": "17fcc400158574603cf3ebaf1e6f0b2c8f281f7f6c7387fe83c1437fc90f4ce0",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/IMG-HH-ALOS2605990680-250812-UBSL2.1GUA.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS2605990690-250812-UBSL2.1GUA",
+      "file": "sentinel_asia/img/ALOS2605990690-250812-UBSL2.1GUA/IMG-HH-ALOS2605990690-250812-UBSL2.1GUA.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS2605990690-250812-UBSL2.1GUA/IMG-HH-ALOS2605990690-250812-UBSL2.1GUA.jpg",
+      "status": "stored",
+      "bytes": 56577,
+      "sha256": "9629e2153bf082c8058b890025b047cb962034c9310f216486da7b47e7c31b27",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/IMG-HH-ALOS2605990690-250812-UBSL2.1GUA.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS2657740680-260728-UBSL2.1GUA",
+      "file": "sentinel_asia/img/ALOS2657740680-260728-UBSL2.1GUA/IMG-HH-ALOS2657740680-260728-UBSL2.1GUA.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS2657740680-260728-UBSL2.1GUA/IMG-HH-ALOS2657740680-260728-UBSL2.1GUA.jpg",
+      "status": "stored",
+      "bytes": 60207,
+      "sha256": "1bcb70398c0b2fa3a998f3b2e74f99fac088718c75c52d5b19439204fca0ef96",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/IMG-HH-ALOS2657740680-260728-UBSL2.1GUA.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS2657740690-260728-UBSL2.1GUA",
+      "file": "sentinel_asia/img/ALOS2657740690-260728-UBSL2.1GUA/IMG-HH-ALOS2657740690-260728-UBSL2.1GUA.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS2657740690-260728-UBSL2.1GUA/IMG-HH-ALOS2657740690-260728-UBSL2.1GUA.jpg",
+      "status": "stored",
+      "bytes": 55938,
+      "sha256": "f302d57ae795bf25be87596500e5d480cfb8278572b6573addc3db3d30e9f9f8",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/IMG-HH-ALOS2657740690-260728-UBSL2.1GUA.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS2657822910-260729-UBSL2.1GUD",
+      "file": "sentinel_asia/img/ALOS2657822910-260729-UBSL2.1GUD/IMG-HH-ALOS2657822910-260729-UBSL2.1GUD.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS2657822910-260729-UBSL2.1GUD/IMG-HH-ALOS2657822910-260729-UBSL2.1GUD.jpg",
+      "status": "stored",
+      "bytes": 74186,
+      "sha256": "51ee1a3eb38661a3d94f537e4c040fb46cedde62c1e628eaf6017b9fcd3cc6a0",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/IMG-HH-ALOS2657822910-260729-UBSL2.1GUD.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS2657822920-260729-UBSL2.1GUD",
+      "file": "sentinel_asia/img/ALOS2657822920-260729-UBSL2.1GUD/IMG-HH-ALOS2657822920-260729-UBSL2.1GUD.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS2657822920-260729-UBSL2.1GUD/IMG-HH-ALOS2657822920-260729-UBSL2.1GUD.jpg",
+      "status": "stored",
+      "bytes": 68529,
+      "sha256": "a06b13ae64c4cd466446be22c9887b19024df0e6a1c41097f3ca2ae2f374c754",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/IMG-HH-ALOS2657822920-260729-UBSL2.1GUD.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS2657822930-260729-UBSL2.1GUD",
+      "file": "sentinel_asia/img/ALOS2657822930-260729-UBSL2.1GUD/IMG-HH-ALOS2657822930-260729-UBSL2.1GUD.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS2657822930-260729-UBSL2.1GUD/IMG-HH-ALOS2657822930-260729-UBSL2.1GUD.jpg",
+      "status": "stored",
+      "bytes": 67657,
+      "sha256": "359a3eee6d906d74165243f01c651416f2fe7f4468f4fd4c9d383971b43a0d4b",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/IMG-HH-ALOS2657822930-260729-UBSL2.1GUD.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS40292910251113UWDPLD0109-2.1GU-",
+      "file": "sentinel_asia/img/ALOS40292910251113UWDPLD0109-2.1GU-/BRS-HH-ALOS40292910251113UWDPLD0109-2.1GU-.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS40292910251113UWDPLD0109-2.1GU-/BRS-HH-ALOS40292910251113UWDPLD0109-2.1GU-.jpg",
+      "status": "stored",
+      "bytes": 85628,
+      "sha256": "4218f1391ea4fe47ec73a8bc9a30dda6fdc9c1327c4cd59b2da8c78e70385e9d",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/BRS-HH-ALOS40292910251113UWDPLD0109-2.1GU-.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS40292920251113UWDPLD0109-2.1GU-",
+      "file": "sentinel_asia/img/ALOS40292920251113UWDPLD0109-2.1GU-/BRS-HH-ALOS40292920251113UWDPLD0109-2.1GU-.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS40292920251113UWDPLD0109-2.1GU-/BRS-HH-ALOS40292920251113UWDPLD0109-2.1GU-.jpg",
+      "status": "stored",
+      "bytes": 72904,
+      "sha256": "3d570526ed652863be35ea1f41dbc191b8bbadbbb67262d29dec9af2431461ac",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/BRS-HH-ALOS40292920251113UWDPLD0109-2.1GU-.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/ALOS40292930251113UWDPLD0109-2.1GU-",
+      "file": "sentinel_asia/img/ALOS40292930251113UWDPLD0109-2.1GU-/BRS-HH-ALOS40292930251113UWDPLD0109-2.1GU-.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/ALOS40292930251113UWDPLD0109-2.1GU-/BRS-HH-ALOS40292930251113UWDPLD0109-2.1GU-.jpg",
+      "status": "stored",
+      "bytes": 70350,
+      "sha256": "60fc679f820517ee5065bb0bc5f293d1c62b63b65f45682da05b73abacb3a775",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/BRS-HH-ALOS40292930251113UWDPLD0109-2.1GU-.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/C2E_MX_02AUG2026",
+      "file": "sentinel_asia/img/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc1_jpg.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc1_jpg.jpg",
+      "status": "stored",
+      "bytes": 5540231,
+      "sha256": "f28d9c67b47881d66361cc49e168b899392201e8663333a49d9fe597d7f68595",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_c2e_02aug2026_sc1_jpg.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/C2E_MX_02AUG2026",
+      "file": "sentinel_asia/img/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc1_jpg_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc1_jpg_sml.jpg",
+      "status": "stored",
+      "bytes": 442560,
+      "sha256": "bf0e03b1ba269aea5af00bcfa4dff5c1cc05dbac9e0109b6525dd032e04d4ab3",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_c2e_02aug2026_sc1_jpg_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/C2E_MX_02AUG2026",
+      "file": "sentinel_asia/img/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc2_jpg.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc2_jpg.jpg",
+      "status": "stored",
+      "bytes": 4527042,
+      "sha256": "102dcabf0dd622e12d649ed5974d063dd2f38cfbe6e13cb9f6b7289b40e294c7",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_c2e_02aug2026_sc2_jpg.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/C2E_MX_02AUG2026",
+      "file": "sentinel_asia/img/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc2_jpg_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc2_jpg_sml.jpg",
+      "status": "stored",
+      "bytes": 380088,
+      "sha256": "65dad17a622da13ecdfe54c4fdb30b341de026974177c4be803f9bec660db94a",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_c2e_02aug2026_sc2_jpg_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/C2E_MX_02AUG2026",
+      "file": "sentinel_asia/img/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc3_jpg.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc3_jpg.jpg",
+      "status": "stored",
+      "bytes": 3676079,
+      "sha256": "0ac2926ef33cf3bf73530b2928e56ccf52e1c25808d87c8213ce1a9969ecaae1",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_c2e_02aug2026_sc3_jpg.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/C2E_MX_02AUG2026",
+      "file": "sentinel_asia/img/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc3_jpg_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc3_jpg_sml.jpg",
+      "status": "stored",
+      "bytes": 340535,
+      "sha256": "3ffdb5bd27b3ce95be1b83929f6d8589a698379d3ec7a51a5ec213131bc424d4",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_c2e_02aug2026_sc3_jpg_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/C2E_MX_02AUG2026",
+      "file": "sentinel_asia/img/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc4_jpg.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc4_jpg.jpg",
+      "status": "stored",
+      "bytes": 3923001,
+      "sha256": "8923a7a308c130beb063bf84c3dfecd55b74061446b8307fbbae0ca60a19fceb",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_c2e_02aug2026_sc4_jpg.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/C2E_MX_02AUG2026",
+      "file": "sentinel_asia/img/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc4_jpg_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc4_jpg_sml.jpg",
+      "status": "stored",
+      "bytes": 354085,
+      "sha256": "1507191fe8367e770d069d57484aa6fd79fb43bbee309d49d28c0144313491b7",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_c2e_02aug2026_sc4_jpg_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/C2E_MX_02AUG2026",
+      "file": "sentinel_asia/img/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc5_jpg.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc5_jpg.jpg",
+      "status": "stored",
+      "bytes": 5756571,
+      "sha256": "92820829c2020e9c23b084bca647083e69178c5fa660c1fd7120f45b1018f34d",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_c2e_02aug2026_sc5_jpg.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/C2E_MX_02AUG2026",
+      "file": "sentinel_asia/img/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc5_jpg_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc5_jpg_sml.jpg",
+      "status": "stored",
+      "bytes": 469557,
+      "sha256": "6da1c278c7842c45df489f479efbe39c230b35a96f0ea031a514c56fa61f1280",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_c2e_02aug2026_sc5_jpg_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/C2E_MX_02AUG2026",
+      "file": "sentinel_asia/img/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc6_jpg.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc6_jpg.jpg",
+      "status": "stored",
+      "bytes": 3937479,
+      "sha256": "45d9bc37db8f87f850315166c6524fba56540052f6f9ff24e14dd981be412cff",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_c2e_02aug2026_sc6_jpg.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/C2E_MX_02AUG2026",
+      "file": "sentinel_asia/img/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc6_jpg_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/C2E_MX_02AUG2026/jp_c2e_02aug2026_sc6_jpg_sml.jpg",
+      "status": "stored",
+      "bytes": 366684,
+      "sha256": "f9767cf1a3082faf7ec4c573ad63ba9c9ece0f113269b3ad932b313155a25914",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_c2e_02aug2026_sc6_jpg_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/CHIBA",
+      "file": "sentinel_asia/img/CHIBA/Shimabara.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/CHIBA/Shimabara.jpg",
+      "status": "stored",
+      "bytes": 379266,
+      "sha256": "930d22b7f70b733155c21beee85560cb8c474073bb05f8bf38dfba89080e0e3a",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/Shimabara.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/CHIBA",
+      "file": "sentinel_asia/img/CHIBA/YatsushiroCity.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/CHIBA/YatsushiroCity.jpg",
+      "status": "stored",
+      "bytes": 317497,
+      "sha256": "791a018fb8f934b463422e727ebc267a510da85a56bbb04a83ed82d7e4220e7b",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/YatsushiroCity.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20231230022858_011440_E130N33_2A_MS_HR_2607290458449",
+      "file": "sentinel_asia/img/DZZ-HR_20231230022858_011440_E130N33_2A_MS_HR_2607290458449/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20231230022858_011440_E130N33_2A_MS_HR_2607290458449/PREVIEW.JPG",
+      "status": "stored",
+      "bytes": 123023,
+      "sha256": "c6a993326ff1897e7fcb3c2fb50b8146fd9c714353a0009d355b3aa999bbde0f",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/PREVIEW.JPG",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20231230022858_011940_E130N33_2A_MS_HR_2607290458449",
+      "file": "sentinel_asia/img/DZZ-HR_20231230022858_011940_E130N33_2A_MS_HR_2607290458449/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20231230022858_011940_E130N33_2A_MS_HR_2607290458449/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 143885,
+      "sha256": "66753710925f18be0a1b914688a4cdc5c3f70af4cd63d0ef97c1c886017d1551",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:30:46Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"a9bc0979e31995a798a1b695c22ac99f\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:40 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20231230022858_012211_E130N32_2A_MS_HR_2607290458449",
+      "file": "sentinel_asia/img/DZZ-HR_20231230022858_012211_E130N32_2A_MS_HR_2607290458449/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20231230022858_012211_E130N32_2A_MS_HR_2607290458449/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 152262,
+      "sha256": "1113bc70d5044d79a3df7c6645b0d903e689fe03325e6ef5c07bf960be6defa4",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:30:48Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"09464ae3bfd896b63694191e640f57b7\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:39 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240310020509_013938_E131N33_2A_MS_HR_2607290455104",
+      "file": "sentinel_asia/img/DZZ-HR_20240310020509_013938_E131N33_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240310020509_013938_E131N33_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 148449,
+      "sha256": "9351d9641fb89e7c549567e5629ceab806bf2247d255aae7eedf2bf7bb8c84cd",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:30:50Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"2b15ea16e6755fb00042ae1b8291c54f\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:37 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240310020509_014438_E130N32_2A_MS_HR_2607290455104",
+      "file": "sentinel_asia/img/DZZ-HR_20240310020509_014438_E130N32_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240310020509_014438_E130N32_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 150928,
+      "sha256": "80a9121217f51d9256e8c37158b5d4e80d5f806b271061dd00a59861ae9d570f",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:30:53Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"93a2cae61842af6a63f3da6d0d3bc2e2\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:36 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240310020509_014938_E130N32_2A_MS_HR_2607290455104",
+      "file": "sentinel_asia/img/DZZ-HR_20240310020509_014938_E130N32_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240310020509_014938_E130N32_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 156756,
+      "sha256": "66d8979eb69c4c9a6d981fd55ed12ac4cdaaeca64076bb9b9aa9b7405af2b808",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:30:55Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"eb79308b3a480bb7b73c9afdb00b2ab0\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:35 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240310020509_015438_E130N32_2A_MS_HR_2607290455104",
+      "file": "sentinel_asia/img/DZZ-HR_20240310020509_015438_E130N32_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240310020509_015438_E130N32_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 155369,
+      "sha256": "c81ba5125ba8a98a533db4cce14157c4528ac45b64bcdada2aa1c14bcf2b57c6",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:30:57Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"5465763737b35ead92d77cde5bc9136e\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:34 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240310020509_015938_E130N32_2A_MS_HR_2607290455104",
+      "file": "sentinel_asia/img/DZZ-HR_20240310020509_015938_E130N32_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240310020509_015938_E130N32_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 148330,
+      "sha256": "647b18da0be1a8a65ad7e6c2621e89c4d34c10e2ea4ac9e65ab5ed486ab784b5",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:30:59Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"957ae6adafa0a95fe0e06718a712a264\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:41 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240310020509_016438_E130N32_2A_MS_HR_2607290455104",
+      "file": "sentinel_asia/img/DZZ-HR_20240310020509_016438_E130N32_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240310020509_016438_E130N32_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 148483,
+      "sha256": "58bb59dd33c3dc83ff65c862fcba54312161f795a8c4b072aec763ebb69796b6",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:02Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"9543f8ae33be1dfdd5ed8a7f0647fe82\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:33 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240310020509_016550_E130N32_2A_MS_HR_2607290455104",
+      "file": "sentinel_asia/img/DZZ-HR_20240310020509_016550_E130N32_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240310020509_016550_E130N32_2A_MS_HR_2607290455104/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 144534,
+      "sha256": "53e673bb1469fe3ef7c22cd32303858a43d2c5304ac6ae41c24e5d4bc85d5c48",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:04Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"583b3362e49efe17b77b464d28e6b07b\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:30 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240514022743_014434_E130N33_2A_MS_HR_2607290453229",
+      "file": "sentinel_asia/img/DZZ-HR_20240514022743_014434_E130N33_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240514022743_014434_E130N33_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 125794,
+      "sha256": "50eb42ccde3d6f3b0f188229cbc2bc59ec2a1b1e85257a048059eae9ea9daf13",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:06Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"84b466502a76768fbddb287914827ace\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:29 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240514022743_014934_E130N33_2A_MS_HR_2607290453229",
+      "file": "sentinel_asia/img/DZZ-HR_20240514022743_014934_E130N33_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240514022743_014934_E130N33_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 77362,
+      "sha256": "8952e9ba585624fa49025211bd081862127e159c98ec5d3ba79e9f72deb7be72",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:08Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"73b0dc4b6b19209f3052f042b6706746\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:28 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240514022743_015434_E130N32_2A_MS_HR_2607290453229",
+      "file": "sentinel_asia/img/DZZ-HR_20240514022743_015434_E130N32_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240514022743_015434_E130N32_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 116493,
+      "sha256": "3775fb4d0a29a9efa023121701981fe3eea8c0b8a272e61b5e50b48a7145b91e",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:10Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"ae693a521dffd3afcfb4727bbba5b5a1\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:27 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240514022743_015934_E130N32_2A_MS_HR_2607290453229",
+      "file": "sentinel_asia/img/DZZ-HR_20240514022743_015934_E130N32_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240514022743_015934_E130N32_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 116388,
+      "sha256": "c82fbf20c3e72f069603e7c0eefcb328e27e975cbf8f0f2658b2838691060d06",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:12Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"a049de0c134d7b49bc017f41bb21040c\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:26 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240514022743_016434_E130N32_2A_MS_HR_2607290453229",
+      "file": "sentinel_asia/img/DZZ-HR_20240514022743_016434_E130N32_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240514022743_016434_E130N32_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 96614,
+      "sha256": "35e4d7a8b19927176781c880cdcc191d2056e21369fb032adacfc796ec490991",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:15Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"8dc1cdef5dc51b45d3679fa22f4e72e7\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:25 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240514022743_016934_E130N32_2A_MS_HR_2607290453229",
+      "file": "sentinel_asia/img/DZZ-HR_20240514022743_016934_E130N32_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240514022743_016934_E130N32_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 104111,
+      "sha256": "a343d01cfadc5f4d1840a4d0f28e10f6b43862549d92785b83cf08ffda6b0ce5",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:17Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"09b663c45354035edcb18a446171dfda\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:31 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20240514022743_017338_E130N32_2A_MS_HR_2607290453229",
+      "file": "sentinel_asia/img/DZZ-HR_20240514022743_017338_E130N32_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20240514022743_017338_E130N32_2A_MS_HR_2607290453229/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 97652,
+      "sha256": "c6de69bc135f71eaef0829c9c0db0e69ceab1850f5ca4739176a46ab5f3dfc21",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:19Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"656cf7bdd3fd9a8dd3ce1a63649831d0\"",
+        "Last-Modified": "Fri, 31 Jul 2026 06:59:42 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015544_000156_E130N33_2A_MS_HR_2608020711200",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015544_000156_E130N33_2A_MS_HR_2608020711200/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015544_000156_E130N33_2A_MS_HR_2608020711200/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 125365,
+      "sha256": "e887e90881242c1f42248dc455585015b3b41e8e8a715d7b397ddf4be1040c2c",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:21Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"b1bec757eda94c7a732a0fdcea401e70\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:40 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015544_000656_E130N32_2A_MS_HR_2608020711200",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015544_000656_E130N32_2A_MS_HR_2608020711200/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015544_000656_E130N32_2A_MS_HR_2608020711200/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 109658,
+      "sha256": "7738d0fb693214464c096587954a15685c2d89c649759a3f29ab6825cebb6fba",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:24Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"b657f86d9c013e071c97f9bd38f1ecaa\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:55 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015544_001156_E130N32_2A_MS_HR_2608020711200",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015544_001156_E130N32_2A_MS_HR_2608020711200/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015544_001156_E130N32_2A_MS_HR_2608020711200/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 76549,
+      "sha256": "825c620926a6c7ce4e07de0e6673a04de4618422e445bb5769bc0071af460b78",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:26Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"7d01f505daa9cb90454e4143a738110d\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:54 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015544_001656_E130N32_2A_MS_HR_2608020711200",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015544_001656_E130N32_2A_MS_HR_2608020711200/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015544_001656_E130N32_2A_MS_HR_2608020711200/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 77937,
+      "sha256": "8336ca24464501fa8038e8b419ec358a3da9eef01ba20d801135d0dd2c450dd9",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:28Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"2ace309d39870a15907ac94ee559a8b4\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:53 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015544_001781_E130N32_2A_MS_HR_2608020711200",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015544_001781_E130N32_2A_MS_HR_2608020711200/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015544_001781_E130N32_2A_MS_HR_2608020711200/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 75372,
+      "sha256": "0e3c04fd91f935968de96927a70f2b55735d4d28c6e1e42db31d855ca2fa68a0",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:30Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"55167afa807eeaeced09d6c0a233e65e\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:52 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015703_000209_E130N33_2A_MS_HR_2608020710446",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015703_000209_E130N33_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015703_000209_E130N33_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 131497,
+      "sha256": "132c5240553c7ebde131a40e1a8f2943b35dcf20c190304a52aabff923ed5e93",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:32Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"6087a3682c491ed3e0a01e5427a2708f\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:51 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015703_000709_E130N33_2A_MS_HR_2608020710446",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015703_000709_E130N33_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015703_000709_E130N33_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 92856,
+      "sha256": "91f72f63e1d946fe71d3cf48f686434d026d7261b312717345c13fc30b4251a7",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:34Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"d85f5f5f2eb29136bdb07f418880a66a\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:50 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015703_001209_E130N32_2A_MS_HR_2608020710446",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015703_001209_E130N32_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015703_001209_E130N32_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 75907,
+      "sha256": "5d5288e8c95445a326519c6157c8a9e6ba81cb7ee7cf0a0c52d6637a42c47ed7",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:36Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"1a00014c879d8bd931421df3135a2d83\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:56 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015703_001709_E130N32_2A_MS_HR_2608020710446",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015703_001709_E130N32_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015703_001709_E130N32_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 94504,
+      "sha256": "c42d10976fe25f5cbbaf75e03dbe21f2f7a8fde1f520bf003e972b5bbb5c5075",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:38Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"b825a821e6bda7e40a5c6af71922d7ae\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:49 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015703_002209_E130N32_2A_MS_HR_2608020710446",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015703_002209_E130N32_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015703_002209_E130N32_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 66738,
+      "sha256": "f799bf438b98f9da41061758c72cba8f5be672dd5de462733337c24779648676",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:40Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"90bcfa057295cf12e005218ea66621b1\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:47 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015703_002709_E130N32_2A_MS_HR_2608020710446",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015703_002709_E130N32_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015703_002709_E130N32_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 104017,
+      "sha256": "8df1f665bdb83ec269f520a8c7ab569482853b310cc45edf24d887da5ea58458",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:43Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"173a79e92d26fd9b8592c10ceb950a53\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:45 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015703_003156_E130N32_2A_MS_HR_2608020710446",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015703_003156_E130N32_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015703_003156_E130N32_2A_MS_HR_2608020710446/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 89466,
+      "sha256": "879e830fc408715a9cb7047827d890e8ebaf73d8fe64ec2b51b9c0848dff87be",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:45Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"502460c2708d8dc8ab3c8cc652cb5b26\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:44 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015828_000135_E130N33_2A_MS_HR_2608020708483",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015828_000135_E130N33_2A_MS_HR_2608020708483/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015828_000135_E130N33_2A_MS_HR_2608020708483/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 108825,
+      "sha256": "8651d7ddff5ee647c7e906b659a1038aa6b7c3745caddfd15a527389f37ae8f0",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:47Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"3c86f9e34e2ae7519080288ec9c02ff8\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:43 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015828_000635_E130N32_2A_MS_HR_2608020708483",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015828_000635_E130N32_2A_MS_HR_2608020708483/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015828_000635_E130N32_2A_MS_HR_2608020708483/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 133984,
+      "sha256": "15277a2e046e963f3714e9f0785e8362875aa3138e481d8532408c342acbbb43",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:49Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"740de40a1475818eeeb71134c7ee9377\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:42 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015828_001135_E130N32_2A_MS_HR_2608020708483",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015828_001135_E130N32_2A_MS_HR_2608020708483/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015828_001135_E130N32_2A_MS_HR_2608020708483/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 115357,
+      "sha256": "0d7e5e70011afa87673b8a3b0f377671f0b53e8e96aa6b185c558113ea06ac57",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:51Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"fe6017614d7ac1ec50ef70c3d7250919\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:41 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015828_001635_E130N32_2A_MS_HR_2608020708483",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015828_001635_E130N32_2A_MS_HR_2608020708483/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015828_001635_E130N32_2A_MS_HR_2608020708483/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 96490,
+      "sha256": "311fa19bb23de4f27c41b4abe82ec1cbc2b7e560f76166d1144d0e315bedad93",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:53Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"490dd8bf341baa283c0335dadf13de25\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:48 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/DZZ-HR_20260801015828_001781_E130N32_2A_MS_HR_2608020708483",
+      "file": "sentinel_asia/img/DZZ-HR_20260801015828_001781_E130N32_2A_MS_HR_2608020708483/PREVIEW.JPG",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/DZZ-HR_20260801015828_001781_E130N32_2A_MS_HR_2608020708483/PREVIEW.JPG",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 96727,
+      "sha256": "76b9b410871752b241063e2e8258f7295cbc079fc58470b5aa1bb4f1c4003527",
+      "format": "jpeg",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:55Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"8dd9e7efa8f32eba0186a1ddecf79f59\"",
+        "Last-Modified": "Tue, 04 Aug 2026 04:06:58 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/img/E04_SAR_FR1_30JUL2026",
+      "file": "sentinel_asia/img/E04_SAR_FR1_30JUL2026/jp_eos4_fre_30jul26_hh_sc1_jpg.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/E04_SAR_FR1_30JUL2026/jp_eos4_fre_30jul26_hh_sc1_jpg.jpg",
+      "verified_utc": "2026-10-18T06:31:55Z",
+      "status": "skipped_size",
+      "bytes": 0,
+      "limit_bytes": 7000000,
+      "remote_bytes": null,
+      "note": "巨大SAR元画像は容量方針により除外。同じシーンのsml版を取得"
+    },
+    {
+      "group": "sentinel_asia/img/E04_SAR_FR1_30JUL2026",
+      "file": "sentinel_asia/img/E04_SAR_FR1_30JUL2026/jp_eos4_fre_30jul26_hh_sc1_jpg_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/E04_SAR_FR1_30JUL2026/jp_eos4_fre_30jul26_hh_sc1_jpg_sml.jpg",
+      "status": "stored",
+      "bytes": 544828,
+      "sha256": "70f76214fa4d09f5e12d0432a63a3606108f211b81607cef110c61fadadd3730",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_eos4_fre_30jul26_hh_sc1_jpg_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/E04_SAR_FR1_30JUL2026",
+      "file": "sentinel_asia/img/E04_SAR_FR1_30JUL2026/jp_eos4_fre_30jul26_hv_sc1_jpg.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/E04_SAR_FR1_30JUL2026/jp_eos4_fre_30jul26_hv_sc1_jpg.jpg",
+      "verified_utc": "2026-10-18T06:31:55Z",
+      "status": "skipped_size",
+      "bytes": 0,
+      "limit_bytes": 7000000,
+      "remote_bytes": null,
+      "note": "巨大SAR元画像は容量方針により除外。同じシーンのsml版を取得"
+    },
+    {
+      "group": "sentinel_asia/img/E04_SAR_FR1_30JUL2026",
+      "file": "sentinel_asia/img/E04_SAR_FR1_30JUL2026/jp_eos4_fre_30jul26_hv_sc1_jpg_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/E04_SAR_FR1_30JUL2026/jp_eos4_fre_30jul26_hv_sc1_jpg_sml.jpg",
+      "status": "stored",
+      "bytes": 551168,
+      "sha256": "08132c753d46cbbd6d51c8b010258e9873e1eb733253425c094218b47fe17d33",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_eos4_fre_30jul26_hv_sc1_jpg_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/E04_SAR_FR2_30JUL2026",
+      "file": "sentinel_asia/img/E04_SAR_FR2_30JUL2026/jp_eos4_frs_30jul26_hh_sc2_jpg.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/E04_SAR_FR2_30JUL2026/jp_eos4_frs_30jul26_hh_sc2_jpg.jpg",
+      "verified_utc": "2026-10-18T06:31:55Z",
+      "status": "skipped_size",
+      "bytes": 0,
+      "limit_bytes": 7000000,
+      "remote_bytes": null,
+      "note": "巨大SAR元画像は容量方針により除外。同じシーンのsml版を取得"
+    },
+    {
+      "group": "sentinel_asia/img/E04_SAR_FR2_30JUL2026",
+      "file": "sentinel_asia/img/E04_SAR_FR2_30JUL2026/jp_eos4_frs_30jul26_hh_sc2_jpg_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/E04_SAR_FR2_30JUL2026/jp_eos4_frs_30jul26_hh_sc2_jpg_sml.jpg",
+      "status": "stored",
+      "bytes": 657670,
+      "sha256": "76d824b4393545da4a6585a60a66224a8403327e339517235d7cf33a06d8e153",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_eos4_frs_30jul26_hh_sc2_jpg_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/E04_SAR_FR2_30JUL2026",
+      "file": "sentinel_asia/img/E04_SAR_FR2_30JUL2026/jp_eos4_frs_30jul26_hv_sc2_jpg.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/E04_SAR_FR2_30JUL2026/jp_eos4_frs_30jul26_hv_sc2_jpg.jpg",
+      "verified_utc": "2026-10-18T06:31:55Z",
+      "status": "skipped_size",
+      "bytes": 0,
+      "limit_bytes": 7000000,
+      "remote_bytes": null,
+      "note": "巨大SAR元画像は容量方針により除外。同じシーンのsml版を取得"
+    },
+    {
+      "group": "sentinel_asia/img/E04_SAR_FR2_30JUL2026",
+      "file": "sentinel_asia/img/E04_SAR_FR2_30JUL2026/jp_eos4_frs_30jul26_hv_sc2_jpg_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/E04_SAR_FR2_30JUL2026/jp_eos4_frs_30jul26_hv_sc2_jpg_sml.jpg",
+      "status": "stored",
+      "bytes": 668017,
+      "sha256": "01c546e545f7bbe9640e843b87b6db582601312259077ce9e40b8808e23f0aba",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_eos4_frs_30jul26_hv_sc2_jpg_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/E04_SAR_MRS_31JUL2026_212214705890",
+      "file": "sentinel_asia/img/E04_SAR_MRS_31JUL2026_212214705890/jp_eos4_mrs_31jul26_hh_jpg.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/E04_SAR_MRS_31JUL2026_212214705890/jp_eos4_mrs_31jul26_hh_jpg.jpg",
+      "verified_utc": "2026-10-18T06:31:55Z",
+      "status": "skipped_size",
+      "bytes": 0,
+      "limit_bytes": 7000000,
+      "remote_bytes": null,
+      "note": "巨大SAR元画像は容量方針により除外。同じシーンのsml版を取得"
+    },
+    {
+      "group": "sentinel_asia/img/E04_SAR_MRS_31JUL2026_212214705890",
+      "file": "sentinel_asia/img/E04_SAR_MRS_31JUL2026_212214705890/jp_eos4_mrs_31jul26_hh_jpg_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/E04_SAR_MRS_31JUL2026_212214705890/jp_eos4_mrs_31jul26_hh_jpg_sml.jpg",
+      "status": "stored",
+      "bytes": 512878,
+      "sha256": "c04ff83a088b043abc62cc266cb418da14b00b9b6a6147363df1c303d238f03d",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_eos4_mrs_31jul26_hh_jpg_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/E04_SAR_MRS_31JUL2026_212214705890",
+      "file": "sentinel_asia/img/E04_SAR_MRS_31JUL2026_212214705890/jp_eos4_mrs_31jul26_hv_jpg.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/E04_SAR_MRS_31JUL2026_212214705890/jp_eos4_mrs_31jul26_hv_jpg.jpg",
+      "verified_utc": "2026-10-18T06:31:55Z",
+      "status": "skipped_size",
+      "bytes": 0,
+      "limit_bytes": 7000000,
+      "remote_bytes": null,
+      "note": "巨大SAR元画像は容量方針により除外。同じシーンのsml版を取得"
+    },
+    {
+      "group": "sentinel_asia/img/E04_SAR_MRS_31JUL2026_212214705890",
+      "file": "sentinel_asia/img/E04_SAR_MRS_31JUL2026_212214705890/jp_eos4_mrs_31jul26_hv_jpg_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/E04_SAR_MRS_31JUL2026_212214705890/jp_eos4_mrs_31jul26_hv_jpg_sml.jpg",
+      "status": "stored",
+      "bytes": 488681,
+      "sha256": "3059f9ef89b6cc9e5236b0e39938ebf2de2fd11eb85c87833b44aa9d7d05b1e0",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_eos4_mrs_31jul26_hv_jpg_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/EOS-RS_20260729_DPM_S1",
+      "file": "sentinel_asia/img/EOS-RS_20260729_DPM_S1/EOS-RS_20260729_DPM_S1_Japan_Kumamoto_Earthquake_v0.9_MAIN.png",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/EOS-RS_20260729_DPM_S1/EOS-RS_20260729_DPM_S1_Japan_Kumamoto_Earthquake_v0.9_MAIN.png",
+      "status": "stored",
+      "bytes": 12704520,
+      "sha256": "b2274e64601804341510463f65e435f4c91fd32bffdf8d6c9c886385ea06c33a",
+      "format": "png",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/EOS-RS_20260729_DPM_S1_Japan_Kumamoto_Earthquake_v0.9_MAIN.png",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/EOS-RS_20260729_DPM_S1",
+      "file": "sentinel_asia/img/EOS-RS_20260729_DPM_S1/EOS-RS_20260729_DPM_S1_Japan_Kumamoto_Earthquake_v0.9_MAIN_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/EOS-RS_20260729_DPM_S1/EOS-RS_20260729_DPM_S1_Japan_Kumamoto_Earthquake_v0.9_MAIN_sml.jpg",
+      "status": "stored",
+      "bytes": 969464,
+      "sha256": "c73cb92a4c369f153622803ee4c6ba464cc31910323746839e8abe15176ca9c5",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/EOS-RS_20260729_DPM_S1_Japan_Kumamoto_Earthquake_v0.9_MAIN_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/FS5_G000_PMS_L4UTM_20260731_015438",
+      "file": "sentinel_asia/img/FS5_G000_PMS_L4UTM_20260731_015438/FS5_G000_PMS_L4UTM_20260731_015438_qls.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/FS5_G000_PMS_L4UTM_20260731_015438/FS5_G000_PMS_L4UTM_20260731_015438_qls.jpg",
+      "status": "stored",
+      "bytes": 141401,
+      "sha256": "881ba9977071d47ba2248f66b684bb06810471f6c62a65ac4855a574c5f2c10f",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/FS5_G000_PMS_L4UTM_20260731_015438_qls.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/FS5_G000_PMS_L4UTM_20260802_015433",
+      "file": "sentinel_asia/img/FS5_G000_PMS_L4UTM_20260802_015433/FS5_G000_PMS_L4UTM_20260802_015433_qls.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/FS5_G000_PMS_L4UTM_20260802_015433/FS5_G000_PMS_L4UTM_20260802_015433_qls.jpg",
+      "status": "stored",
+      "bytes": 190293,
+      "sha256": "d9d0debce5c30121a42e96519ec6f6f0cee64f292360ca0409d18c92d98e2789",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/FS5_G000_PMS_L4UTM_20260802_015433_qls.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/FS5_G000_PMS_L4UTM_20260806_015423",
+      "file": "sentinel_asia/img/FS5_G000_PMS_L4UTM_20260806_015423/FS5_G000_PMS_L4UTM_20260806_015423_qls.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/FS5_G000_PMS_L4UTM_20260806_015423/FS5_G000_PMS_L4UTM_20260806_015423_qls.jpg",
+      "status": "stored",
+      "bytes": 124431,
+      "sha256": "5d209302ffc97f1c26e09635afcd9af856356590bac43691b68c86f61047a303",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/FS5_G000_PMS_L4UTM_20260806_015423_qls.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/FS5_G001_PMS_L4UTM_20260731_015442",
+      "file": "sentinel_asia/img/FS5_G001_PMS_L4UTM_20260731_015442/FS5_G001_PMS_L4UTM_20260731_015442_qls.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/FS5_G001_PMS_L4UTM_20260731_015442/FS5_G001_PMS_L4UTM_20260731_015442_qls.jpg",
+      "status": "stored",
+      "bytes": 129462,
+      "sha256": "6e96a4b543bd1cae5546c4973dd35050e09247476411f49f0992113bc9be129d",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/FS5_G001_PMS_L4UTM_20260731_015442_qls.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/FS5_G001_PMS_L4UTM_20260802_015437",
+      "file": "sentinel_asia/img/FS5_G001_PMS_L4UTM_20260802_015437/FS5_G001_PMS_L4UTM_20260802_015437_qls.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/FS5_G001_PMS_L4UTM_20260802_015437/FS5_G001_PMS_L4UTM_20260802_015437_qls.jpg",
+      "status": "stored",
+      "bytes": 189826,
+      "sha256": "80fa140ac377b12239e280f07f496f883104af433688f501abbc4cf64b28b2fa",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/FS5_G001_PMS_L4UTM_20260802_015437_qls.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/FS5_G001_PMS_L4UTM_20260806_015424",
+      "file": "sentinel_asia/img/FS5_G001_PMS_L4UTM_20260806_015424/FS5_G001_PMS_L4UTM_20260806_015424_qls.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/FS5_G001_PMS_L4UTM_20260806_015424/FS5_G001_PMS_L4UTM_20260806_015424_qls.jpg",
+      "status": "stored",
+      "bytes": 124630,
+      "sha256": "fc8b1d9af16890c2f57b36e78c1e6037678e3a09346b9ae002fd453870acd41c",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/FS5_G001_PMS_L4UTM_20260806_015424_qls.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/FS5_G002_PMS_L4UTM_20260802_015438",
+      "file": "sentinel_asia/img/FS5_G002_PMS_L4UTM_20260802_015438/FS5_G002_PMS_L4UTM_20260802_015438_qls.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/FS5_G002_PMS_L4UTM_20260802_015438/FS5_G002_PMS_L4UTM_20260802_015438_qls.jpg",
+      "status": "stored",
+      "bytes": 157025,
+      "sha256": "3a962e34aa60a36a2e9d930e41f82cf412ad41cf42404d4feabe51bef9b9d9a7",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/FS5_G002_PMS_L4UTM_20260802_015438_qls.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/FS8A_G000_PMS2_L4UTM_20260730_023051",
+      "file": "sentinel_asia/img/FS8A_G000_PMS2_L4UTM_20260730_023051/FS8A_G000_PMS2_L4UTM_20260730_023051_qls.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/FS8A_G000_PMS2_L4UTM_20260730_023051/FS8A_G000_PMS2_L4UTM_20260730_023051_qls.jpg",
+      "status": "stored",
+      "bytes": 309191,
+      "sha256": "e24477890d2772fa3e8340eaa053b1563fca93c9d591a9f0f919e6b10b4d8b8f",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/FS8A_G000_PMS2_L4UTM_20260730_023051_qls.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/FS8A_G000_PMS2_L4UTM_20260806_023143",
+      "file": "sentinel_asia/img/FS8A_G000_PMS2_L4UTM_20260806_023143/FS8A_G000_PMS2_L4UTM_20260806_023143_qls.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/FS8A_G000_PMS2_L4UTM_20260806_023143/FS8A_G000_PMS2_L4UTM_20260806_023143_qls.jpg",
+      "status": "stored",
+      "bytes": 347841,
+      "sha256": "b832b7fb00643ef9e921a6415743c8dd7906140830cd1604b261a750914ee82a",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/FS8A_G000_PMS2_L4UTM_20260806_023143_qls.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/FS8A_G000_PMS2_L4UTM_20260808_023155",
+      "file": "sentinel_asia/img/FS8A_G000_PMS2_L4UTM_20260808_023155/FS8A_G000_PMS2_L4UTM_20260808_023155_qls.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/FS8A_G000_PMS2_L4UTM_20260808_023155/FS8A_G000_PMS2_L4UTM_20260808_023155_qls.jpg",
+      "status": "stored",
+      "bytes": 349634,
+      "sha256": "1f96537147e4dbbb8cf6cef0885491ad75f8d9287cd1274328421f2d1d4de95d",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/FS8A_G000_PMS2_L4UTM_20260808_023155_qls.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/MBRSC-MBZ-SAT-20260728",
+      "file": "sentinel_asia/img/MBRSC-MBZ-SAT-20260728/MBRSC-MBZ-SAT-20260728-Japan-Earthquake-00652_Thumbnail.png",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/MBRSC-MBZ-SAT-20260728/MBRSC-MBZ-SAT-20260728-Japan-Earthquake-00652_Thumbnail.png",
+      "status": "stored",
+      "bytes": 601455,
+      "sha256": "80893a64fd7e08268dcf60e1f0eb5bc3f07678007c744fc8b1ec762000cda9b8",
+      "format": "png",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/MBRSC-MBZ-SAT-20260728-Japan-Earthquake-00652_Thumbnail.png",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/MBRSC",
+      "file": "sentinel_asia/img/MBRSC/20260728-Japan-Earthquake-00652_Earthquakechange.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/MBRSC/20260728-Japan-Earthquake-00652_Earthquakechange.jpg",
+      "status": "stored",
+      "bytes": 3767397,
+      "sha256": "21d0ef2e0638a3ed0de6e46518e6bd7f810089c19b37c3f5828a563b803c1ee8",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/20260728-Japan-Earthquake-00652_Earthquakechange.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/MBRSC",
+      "file": "sentinel_asia/img/MBRSC/20260728-Japan-Earthquake-00652_Earthquakechange_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/MBRSC/20260728-Japan-Earthquake-00652_Earthquakechange_sml.jpg",
+      "status": "stored",
+      "bytes": 567806,
+      "sha256": "e6f263f16245ffcaf44cf9b2c3d38a48fe3c7dfdf86a28b2fb84f2b7169b6a0b",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/20260728-Japan-Earthquake-00652_Earthquakechange_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/MBRSC",
+      "file": "sentinel_asia/img/MBRSC/20260728-Japan-Earthquake-00652_Earthquakedisplacement.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/MBRSC/20260728-Japan-Earthquake-00652_Earthquakedisplacement.jpg",
+      "status": "stored",
+      "bytes": 2566179,
+      "sha256": "fb43baa5050e1ea341b4c36f375640c75d62f0a52852725c25d5f6a87b683991",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/20260728-Japan-Earthquake-00652_Earthquakedisplacement.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/MBRSC",
+      "file": "sentinel_asia/img/MBRSC/20260728-Japan-Earthquake-00652_Earthquakedisplacement_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/MBRSC/20260728-Japan-Earthquake-00652_Earthquakedisplacement_sml.jpg",
+      "status": "stored",
+      "bytes": 567461,
+      "sha256": "afcaeaa58094d71fb61c6bc165e340dfb76a63095a119f5cf43c21fd53dd7a17",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/20260728-Japan-Earthquake-00652_Earthquakedisplacement_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/img/R2F02AUG2026079324014500047SSANSTUC00GTDD",
+      "file": "sentinel_asia/img/R2F02AUG2026079324014500047SSANSTUC00GTDD/jp_r2_l4_02aug26_jpg.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/R2F02AUG2026079324014500047SSANSTUC00GTDD/jp_r2_l4_02aug26_jpg.jpg",
+      "verified_utc": "2026-10-18T06:32:01Z",
+      "status": "skipped_size",
+      "bytes": 0,
+      "limit_bytes": 7000000,
+      "remote_bytes": null,
+      "note": "巨大SAR元画像は容量方針により除外。同じシーンのsml版を取得"
+    },
+    {
+      "group": "sentinel_asia/img/R2F02AUG2026079324014500047SSANSTUC00GTDD",
+      "file": "sentinel_asia/img/R2F02AUG2026079324014500047SSANSTUC00GTDD/jp_r2_l4_02aug26_jpg_sml.jpg",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/R2F02AUG2026079324014500047SSANSTUC00GTDD/jp_r2_l4_02aug26_jpg_sml.jpg",
+      "status": "stored",
+      "bytes": 1208700,
+      "sha256": "5f8ad90e53112538ea34cff33c1083d8affe5646389299a85304d40048e0f53f",
+      "format": "jpeg",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "migrated_from": "sentinel_asia/img/jp_r2_l4_02aug26_jpg_sml.jpg",
+      "last_action": "cached"
+    },
+    {
+      "group": "sentinel_asia/products/CHIBA",
+      "file": "sentinel_asia/products/CHIBA/Uki.kmz",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/CHIBA/Uki.kmz",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 275933,
+      "sha256": "9189ca2147de03e3865d93874ee2a1fae2f81dba2f4f738b9940bde0d9c00ee5",
+      "format": "kmz",
+      "metadata": {
+        "kml_documents": 1,
+        "ground_overlays": 1,
+        "network_links": 0,
+        "external_references": [],
+        "archive_members": 2
+      },
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:30:41Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"91238ceb868fc5fdcf360e43d060d07b\"",
+        "Last-Modified": "Fri, 31 Jul 2026 07:17:42 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/products/CHIBA",
+      "file": "sentinel_asia/products/CHIBA/Uki.pdf",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/CHIBA/Uki.pdf",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 481175,
+      "sha256": "2ff85987b7180b67cdce785a0a06f0d40656349023ddce60007c6bdba75a38a6",
+      "format": "pdf",
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:30:43Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"82946ee353aa18aae8c85cb79aaec289\"",
+        "Last-Modified": "Fri, 31 Jul 2026 07:17:42 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/products/EOS-RS_20260729_DPM_S1",
+      "file": "sentinel_asia/products/EOS-RS_20260729_DPM_S1/EOS-RS_20260729_DPM_S1_Japan_Kumamoto_Earthquake_v0.9.kmz",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/EOS-RS_20260729_DPM_S1/EOS-RS_20260729_DPM_S1_Japan_Kumamoto_Earthquake_v0.9.kmz",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 24377,
+      "sha256": "24db7e8cab76e8bdcfc09bcee43468911a0054b4dc8341fb8402adaadd0f776e",
+      "format": "kmz",
+      "metadata": {
+        "kml_documents": 1,
+        "ground_overlays": 0,
+        "network_links": 1,
+        "external_references": [
+          "http://aria-sg-products.s3-website-ap-southeast-1.amazonaws.com/tiles/TMS/EOS-RS_20260729_DPM_S1_Japan_Kumamoto_Earthquake_v0.9.kmz_20260729_031427/EOS-RS_20260729_DPM_S1_Japan_Kumamoto_Earthquake_v0.9/6/55/38.kml",
+          "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png"
+        ],
+        "archive_members": 2
+      },
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:31:57Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"a369df9239635a1ae8c664dc8849be2b\"",
+        "Last-Modified": "Wed, 29 Jul 2026 06:07:55 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "sentinel_asia/products/MBRSC",
+      "file": "sentinel_asia/products/MBRSC/20260728-Japan-Earthquake-00652.zip",
+      "url": "https://sentinel-asia.org/EO/2026/article20260728JP/MBRSC/20260728-Japan-Earthquake-00652.zip",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "bytes": 691577,
+      "sha256": "44f5b3dbbb4c01ecac2194680907e41e3cc92ac2b50e3026cfd582e9aae0bfc3",
+      "format": "zip",
+      "metadata": {
+        "archive_members": 8
+      },
+      "status": "stored",
+      "last_action": "downloaded",
+      "fetched_utc": "2026-10-18T06:32:00Z",
+      "http_status": 200,
+      "response_headers": {
+        "ETag": "\"013548e22177184f38af40fc9ff42187\"",
+        "Last-Modified": "Sat, 08 Aug 2026 04:45:20 GMT"
+      },
+      "attempts": 1
+    },
+    {
+      "group": "usgs",
+      "file": "usgs/downloads",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9/shakemap/global/downloads",
+      "status": "stored",
+      "bytes": 94922,
+      "sha256": "8d1f4dd75560a86311c8ee680f5bd5a5250943ed1bfe781d56f39d8417af9f02",
+      "format": "html",
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    },
+    {
+      "group": "usgs",
+      "file": "usgs/us6000tgb9.geojson",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tgb9.geojson",
+      "status": "stored",
+      "bytes": 71551,
+      "sha256": "c4af352dee4de51f56716a827f6d1d4525ee0f9757dd59745ad9c735aef4045f",
+      "format": "json",
+      "metadata": {
+        "magnitude": 6.8,
+        "magnitude_type": "mww",
+        "title": "M 6.8 - The 2026 Kumamoto Region, Japan Earthquake"
+      },
+      "verified_utc": "2026-10-18T06:42:39Z",
+      "last_action": "cached"
+    }
+  ],
+  "schema_version": 2,
+  "updated_utc": "2026-10-18T06:42:39Z",
+  "summary": {
+    "stored_files": 209,
+    "stored_bytes": 229156944,
+    "statuses": {
+      "manual": 7,
+      "skipped_size": 7,
+      "stored": 209
+    },
+    "groups": {
+      "gsi": {
+        "files": 3,
+        "bytes": 55177338
+      },
+      "jishin_honbu": {
+        "files": 2,
+        "bytes": 27536829
+      },
+      "jma_kyoshin": {
+        "files": 79,
+        "bytes": 47441137
+      },
+      "jma_reports": {
+        "files": 7,
+        "bytes": 5862380
+      },
+      "kyoshin_topics": {
+        "files": 2,
+        "bytes": 33569
+      },
+      "reports_cabnet": {
+        "files": 5,
+        "bytes": 12725128
+      },
+      "reports_expert": {
+        "files": 7,
+        "bytes": 14037795
+      },
+      "reports_fdma": {
+        "files": 3,
+        "bytes": 362708
+      },
+      "reports_mlit": {
+        "files": 3,
+        "bytes": 148023
+      },
+      "reports_pref": {
+        "files": 2,
+        "bytes": 130839
+      },
+      "sentinel_asia": {
+        "files": 94,
+        "bytes": 65534725
+      },
+      "usgs": {
+        "files": 2,
+        "bytes": 166473
+      }
+    }
+  }
+}

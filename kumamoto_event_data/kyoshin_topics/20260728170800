@@ -1,0 +1,453 @@
+<!-- saved from url=(0090)https://www.kyoshin.bosai.go.jp/kyoshin/topics/html20240101160813/main_20240101160813.html -->
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>2026年07月28日　熊本県天草・芦北地方の地震による強震動</title>
+
+    <link rel="stylesheet"
+        href="/static/libs/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="/static/css/eqvideo.css">
+    <link rel="stylesheet"
+        href="/static/css/topics.css">
+
+    <style type="text/css">
+<!--
+.warning{	color:#ff0000;	}
+.create{	font-size:9pt;	padding:0pt;	margin:0pt;	font-family:ＭＳ ゴシック;	text-align:right;	}
+.link{	font-size:14pt;	padding:0pt;	margin:0pt;	font-family:ＭＳ ゴシック;	text-align:left;	}
+.title{	font-size:20pt;	font-family:ＭＳ ゴシック;	}
+.overview{	font-size:12pt;	font-family:ＭＳ ゴシック;	}
+.acvcdoc{	font-size:12pt;	font-family:ＭＳ ゴシック;	}
+.aempdoc{	font-size:12pt;	font-family:ＭＳ ゴシック;	}
+.dansodoc{	font-size:12pt;	font-family:ＭＳ ゴシック;	}
+.wavedoc{	font-size:12pt;	font-family:ＭＳ ゴシック;	}
+.rspdoc{	font-size:12pt;	font-family:ＭＳ ゴシック;	}
+.raldoc{	font-size:12pt;	font-family:ＭＳ ゴシック;	}
+.topldoc{	font-size:12pt;	font-family:ＭＳ ゴシック;	}
+.refldoc{	font-size:10pt;	font-family:ＭＳ ゴシック;	}
+.animation{	margin:0mm;	margin-bottom:.0001pt;	text-align:justify;	font-size:10.5pt;	font-family:ＭＳ 明朝;	}
+.site th{	font-size:10pt;	font-family:ＭＳ ゴシック;	background-color:#1000f0;	color:#ffffff;	white-space:nowrap;	}
+.site td{	font-size:10pt;	font-family:ＭＳ ゴシック;	background-color:#e0ffe0;	white-space:nowrap;	}
+-->
+</style>
+</head>
+<body>
+    <script>
+       var acc_s_mp4 = "/pub/20260728170800/20260728170755_acc_s.mp4";
+       var rsi_s_mp4 = "/pub/20260728170800/20260728170755_rsi_s.mp4";
+    </script>
+    <br>
+    <div class="create">作成日：2026/10/08 15:26:59</div>
+    <br>
+    <a name="title"><div class="title">2026年07月28日　熊本県天草・芦北地方の地震による強震動</div></a><br><br>
+    <div
+        class="overview">&nbsp;&nbsp;2026年07月28日17時08分頃に熊本県天草・芦北地方を震源（深さ0km、マグニチュード6.1、気象庁）とする地震が発生し、熊本県八代市・上天草市・天草市・美里町・芦北町で震度5弱を観測しました（気象庁発表）。防災科研は日本全国を対象とした強震観測網であるK-NET・KiK-netを運用しており、この地震についても、K-NET、 KiK-netでそれぞれ138点、81点、合計219点の強震記録をインターネット上で公開しています。K-NET・KiK-netで記録された最大加速度はK-NET龍ヶ岳(KMM018)観測点の313gal(三成分合成値)でした。<div><br><br>
+        
+    
+    <div class="title">最大加速度・最大速度分布(全体)</div>
+    
+    
+    
+    <div>
+        
+        <img border="0"
+            src="/pub/20260728170800/20260728170755_pga.png"
+            height="600">
+        
+        
+        <img border="0"
+            src="/pub/20260728170800/20260728170755_pgv.png"
+            height="600">
+        
+    </div>
+    <br />
+    <br />
+    
+    <div class="title">最大加速度・最大速度分布(拡大)</div>
+    
+    
+    
+    <div>
+        
+        <img border="0"
+            src="/pub/20260728170800/20260728170755_exppga.png"
+            height="600">
+        
+        
+        <img border="0"
+            src="/pub/20260728170800/20260728170755_exppgv.png"
+            height="600">
+        
+    </div>
+    
+    <br><br>
+    <div class="acvcdoc">・強震観測網（K-NET、KiK-net）により観測された地表での最大加速度(左図)及び最大速度(右図)の分布。
+    
+    </div><br><br><br>
+    
+    <div class="eq-video-content">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div id="video-container">
+                    <video id="video">
+                        <source id="video-src" src>
+                    </video>
+                    <div class="btn-group">
+                        <button style="margin-right: 1em;" id="play-pause" type="button"
+                            class="btn btn-sm btn-info"><span id="video-status"
+                                class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+                        <label class="sr-only" for="seek-bar"></label>
+                        <input type="range" class="form-control-range" id="seek-bar" value="0"
+                            min="0" max="100">
+                    </div>
+                </div>
+            </div>
+
+            <p />
+            <div class="row">
+                <form id="eq-video-form">
+                    <label class="control-label" style="display: inline;">再生速度
+                        <div class="btn-group" data-toggle="buttons">
+                            <label class="btn btn-default active" style="width: 80px;">
+                                <input type="radio" name="video-rate" value="1" autocomplete="off"
+                                    checked />５倍速</label>
+                            <label class="btn btn-default" style="width: 80px;">
+                                <input type="radio" name="video-rate" value="2"
+                                    autocomplete="off" />１０倍速</label>
+                        </div>
+                    </label>
+                    <label class="control-label" style="margin-left: 1em; display: inline;">動画
+                        <div class="btn-group">
+                            <select name="video-type" class="form-control" id="video-type">
+                                <option value="acc_s">最大加速度（地表）</option>
+                                <option value="rsi_s">リアルタイム震度（地表）</option>
+                            </select>
+                        </div>
+                    </label>
+                </form>
+            </div>
+
+            <p>
+            </p>
+        </div>
+    </div>
+    
+
+</div>
+</div>
+<br />
+<br />
+
+<div class="title">K-NET龍ヶ岳（KMM018）観測点の強震動波形</div><br>
+<img border="0"
+src="/pub/20260728170800/KMM018_20260728170755_wave_big.png"
+width="840"><br>
+<div
+class="wavedoc">・K-NET・KiK-net観測点の中で最大加速度（313gal、三成分合成値）を記録したK-NET龍ヶ岳（KMM018）観測点の強震動波形。
+</div>
+
+<br><br>
+
+<div class="title">K-NET龍ヶ岳（KMM018）観測点の絶対加速度・相対速度応答スペクトル</div>
+<img border="0" style="margin-top:1em; margin-left:10em; transform: rotate(90deg) scale(1.3)"
+src="/pub/20260728170800/KMM018_20260728170755_Spectrum.png"
+height="550"
+width="400">
+<img border="0" style="margin-top:1em; margin-left:22em; transform: rotate(90deg) scale(1.3)"
+src="/pub/20260728170800/KMM018_20260728170755_Spectrum2.png"
+height="550"
+width="400">
+<br>
+<div
+class="rspdoc">・K-NET・KiK-net観測点の中で最大加速度（313gal、三成分合成値）を記録したK-NET龍ヶ岳（KMM018）観測点の加速度・速度応答スペクトル。
+</div>
+
+<br><br>
+
+<div class="title">リアルタイム震度上位10件</div>
+<img style="margin-top:1em; margin-left:10em; transform: rotate(90deg) scale(1.3)" border="0" src="/pub/20260728170800/20260728170755_realtime.png"
+height="550" width="400"><br>
+<div class="raldoc">KMM013(K-NET田浦)/KMM011(K-NET砥用)/KMM018(K-NET龍ヶ岳)/KMM015(K-NET水俣)/KGS004(K-NET阿久根)/KMMH10(KiK-net新和)/KGSH02(KiK-net阿久根)/KMM012(K-NET八代)/NGS014(K-NET口之津)/KMMH15(KiK-net水俣)<br /><br />・リアルタイム震度は防災科研方式[功刀・他（2013）]により計算しています。
+</div>
+
+<br><br>
+
+<div class="title">観測点最大加速度上位10件</div>
+<div class="top10list">
+<table cellpadding="4" cellspacing="1" border="0" class="site top10list"
+    style="background-color:#666666;">
+    <tbody><tr>
+            <th nowrap>No</th>
+            <th nowrap>観測点名</th>
+            <th nowrap>最大加速度</th>
+            <th nowrap>最大速度</th>
+            <th nowrap>計測震度</th>
+        </tr>
+        
+        <tr>
+            <td nowrap align="right">1</td>
+            <td nowrap align="left">K-NET龍ヶ岳(KMM018)</td>
+            <td nowrap align="right"> 313gal</td>
+            <td nowrap align="right"> 5cm/s</td>
+            <td nowrap align="right"> 4.0</td>
+        </tr>
+        
+        <tr>
+            <td nowrap align="right">2</td>
+            <td nowrap align="left">K-NET田浦(KMM013)</td>
+            <td nowrap align="right"> 282gal</td>
+            <td nowrap align="right"> 22cm/s</td>
+            <td nowrap align="right"> 4.9</td>
+        </tr>
+        
+        <tr>
+            <td nowrap align="right">3</td>
+            <td nowrap align="left">K-NET砥用(KMM011)</td>
+            <td nowrap align="right"> 192gal</td>
+            <td nowrap align="right"> 10cm/s</td>
+            <td nowrap align="right"> 4.7</td>
+        </tr>
+        
+        <tr>
+            <td nowrap align="right">4</td>
+            <td nowrap align="left">KiK-net新和(KMMH10)</td>
+            <td nowrap align="right"> 73gal</td>
+            <td nowrap align="right"> 4cm/s</td>
+            <td nowrap align="right"> 3.8</td>
+        </tr>
+        
+        <tr>
+            <td nowrap align="right">5</td>
+            <td nowrap align="left">KiK-net人吉(KMMH12)</td>
+            <td nowrap align="right"> 71gal</td>
+            <td nowrap align="right"> 3cm/s</td>
+            <td nowrap align="right"> 3.5</td>
+        </tr>
+        
+        <tr>
+            <td nowrap align="right">6</td>
+            <td nowrap align="left">K-NET水俣(KMM015)</td>
+            <td nowrap align="right"> 65gal</td>
+            <td nowrap align="right"> 8cm/s</td>
+            <td nowrap align="right"> 4.0</td>
+        </tr>
+        
+        <tr>
+            <td nowrap align="right">7</td>
+            <td nowrap align="left">K-NET東(KGS001)</td>
+            <td nowrap align="right"> 61gal</td>
+            <td nowrap align="right"> 2cm/s</td>
+            <td nowrap align="right"> 3.3</td>
+        </tr>
+        
+        <tr>
+            <td nowrap align="right">8</td>
+            <td nowrap align="left">K-NET八代(KMM012)</td>
+            <td nowrap align="right"> 53gal</td>
+            <td nowrap align="right"> 12cm/s</td>
+            <td nowrap align="right"> 4.0</td>
+        </tr>
+        
+        <tr>
+            <td nowrap align="right">9</td>
+            <td nowrap align="left">KiK-net芦北(KMMH11)</td>
+            <td nowrap align="right"> 52gal</td>
+            <td nowrap align="right"> 5cm/s</td>
+            <td nowrap align="right"> 3.5</td>
+        </tr>
+        
+        <tr>
+            <td nowrap align="right">10</td>
+            <td nowrap align="left">KiK-net阿久根(KGSH02)</td>
+            <td nowrap align="right"> 51gal</td>
+            <td nowrap align="right"> 5cm/s</td>
+            <td nowrap align="right"> 3.7</td>
+        </tr>
+        
+    </tbody>
+</table>
+<table class="site">
+    <tbody>
+        <tr>
+            <th>
+                絶対加速度・相対速度応答スペクトル
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <img border="0" src="/pub/20260728170800/20260728170800.acctop10_acmap.png" width="483"><br />
+                <img border="0" src="/pub/20260728170800/20260728170800.acctop10_vcmap.png" width="483">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="top10wave">
+    <table cellpadding="4" cellspacing="1" border="0" class="site">
+        <tbody>
+            <tr>
+                <th class="top10wave" colspan="3">
+                    波形画像
+                </th>
+            </tr>
+            
+            
+            <tr>
+            
+                <td nowrap>
+                    K-NET龍ヶ岳(KMM018)
+                    <div>
+                        <img class="zoom" border="0"
+                            src="/pub/20260728170800/KMM018_20260728170755_wave.png?1791441680283"
+                            width="300" />
+                    </div>
+                </td>
+            
+            
+            
+                <td nowrap>
+                    K-NET田浦(KMM013)
+                    <div>
+                        <img class="zoom" border="0"
+                            src="/pub/20260728170800/KMM013_20260728170755_wave.png?1791441680283"
+                            width="300" />
+                    </div>
+                </td>
+            
+            
+            
+                <td nowrap>
+                    K-NET砥用(KMM011)
+                    <div>
+                        <img class="zoom" border="0"
+                            src="/pub/20260728170800/KMM011_20260728170755_wave.png?1791441680283"
+                            width="300" />
+                    </div>
+                </td>
+            
+            </tr>
+            
+            
+            
+            <tr>
+            
+                <td nowrap>
+                    KiK-net新和(KMMH10)
+                    <div>
+                        <img class="zoom" border="0"
+                            src="/pub/20260728170800/KMMH10_20260728170755_wave.png?1791441680284"
+                            width="300" />
+                    </div>
+                </td>
+            
+            
+            
+                <td nowrap>
+                    KiK-net人吉(KMMH12)
+                    <div>
+                        <img class="zoom" border="0"
+                            src="/pub/20260728170800/KMMH12_20260728170755_wave.png?1791441680284"
+                            width="300" />
+                    </div>
+                </td>
+            
+            
+            
+                <td nowrap>
+                    K-NET水俣(KMM015)
+                    <div>
+                        <img class="zoom" border="0"
+                            src="/pub/20260728170800/KMM015_20260728170755_wave.png?1791441680284"
+                            width="300" />
+                    </div>
+                </td>
+            
+            </tr>
+            
+            
+            
+            <tr>
+            
+                <td nowrap>
+                    K-NET東(KGS001)
+                    <div>
+                        <img class="zoom" border="0"
+                            src="/pub/20260728170800/KGS001_20260728170755_wave.png?1791441680284"
+                            width="300" />
+                    </div>
+                </td>
+            
+            
+            
+                <td nowrap>
+                    K-NET八代(KMM012)
+                    <div>
+                        <img class="zoom" border="0"
+                            src="/pub/20260728170800/KMM012_20260728170755_wave.png?1791441680284"
+                            width="300" />
+                    </div>
+                </td>
+            
+            
+            
+                <td nowrap>
+                    KiK-net芦北(KMMH11)
+                    <div>
+                        <img class="zoom" border="0"
+                            src="/pub/20260728170800/KMMH11_20260728170755_wave.png?1791441680284"
+                            width="300" />
+                    </div>
+                </td>
+            
+            </tr>
+            
+            
+            
+            <tr>
+            
+                <td nowrap>
+                    KiK-net阿久根(KGSH02)
+                    <div>
+                        <img class="zoom" border="0"
+                            src="/pub/20260728170800/KGSH02_20260728170755_wave.png?1791441680284"
+                            width="300" />
+                    </div>
+                </td>
+            
+            </tr>
+            
+            
+        </tbody>
+    </table>
+</div>
+
+<br><br>
+<div class="col-md-12">
+<div class="topdoc">・最大加速度は三成分合成値です。</div>
+
+<br><br>
+<hr>
+<div class="refdoc">参考文献：</div>
+<div class="refdoc">・功刀卓・青井真・中村洋光・鈴木亘・森川信之・藤原広行, 2013,
+    震度のリアルタイム演算に用いられる近似フィルタの改良, 地震2, 65, 223-230.</div>
+</div>
+    <script>
+const zoom = document.querySelectorAll(".zoom");
+zoom.forEach(function (value) {
+  value.addEventListener("click", () => {
+    value.classList.toggle("in");
+  });
+});
+</script>
+<script	src="/static/libs/jquery-3.5.1.min.js"></script>
+<script src="/static/libs/bootstrap.min.js"></script>
+
+<script>
+var APP = APP || {};
+APP.url = {
+};
+</script>
+<script src="/static/js/topics.js"></script>
+
+</body></html>
